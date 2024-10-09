@@ -1002,14 +1002,18 @@ doc_pos_t doc_insert(doc_ptr doc, cptr text)
 
                 assert(current->type == DOC_TOKEN_WORD);
                 assert(cell);
-
+                
                 for (j = 0; j < current->size && !nowrap; j++)
                 {
-                    cell->a = style->color;
-                    cell->c = current->pos[j];
-                    if (cell->c == '\t')
-                        cell->c = ' ';
-                    if (doc->cursor.x == style->right - 1)
+                    int size = 1;
+                    if (current->pos[j] & 0x80) { // bits start with 1
+                        // not ascii, assuming utf-8
+                        while (j + size < current->size
+                            && (current->pos[j + size] & 0xC0) == 0x80) { // continuation byte
+                            size++;
+                        } 
+                    }
+                    if (doc->cursor.x + size >= style->right)
                     {
                         if (style->options & DOC_STYLE_NO_WORDWRAP)
                         {
@@ -1025,11 +1029,13 @@ doc_pos_t doc_insert(doc_ptr doc, cptr text)
                             doc_insert_space(doc, style->indent);
                         cell = doc_char(doc, doc->cursor);
                     }
-                    else
-                    {
-                        doc->cursor.x++;
-                        cell++;
+                    cell->a = style->color;
+                    cell->c = current->pos[j];
+                    if (cell->c == '\t') {
+                        cell->c = ' ';
                     }
+                    doc->cursor.x++;
+                    cell++;
                 }
             }
         }
