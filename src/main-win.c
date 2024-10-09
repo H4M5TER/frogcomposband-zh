@@ -2212,59 +2212,61 @@ static errr Term_text_win(int x, int y, int n, byte a, const char *s)
     /* Use the font */
     SelectObject(hdc, td->font_id);
     
-    /* Bizarre size */
-    if (td->bizarre ||
-        (td->tile_hgt != td->font_hgt) ||
-        (td->tile_wid != td->font_wid))
-    {
-        int i;
+    ///* Bizarre size */
+    //if (td->bizarre ||
+    //    (td->tile_hgt != td->font_hgt) ||
+    //    (td->tile_wid != td->font_wid))
+    //{
+    //    int i;
 
-        /* Erase complete rectangle */
-        ExtTextOut(hdc, 0, 0, ETO_OPAQUE, &rc, NULL, 0, NULL);
-        
-        /* New rectangle */
-        rc.left += ((td->tile_wid - td->font_wid) / 2);
-        rc.right = rc.left + td->font_wid;
-        rc.top += ((td->tile_hgt - td->font_hgt) / 2);
-        rc.bottom = rc.top + td->font_hgt;
+    //    /* Erase complete rectangle */
+    //    ExtTextOut(hdc, 0, 0, ETO_OPAQUE, &rc, NULL, 0, NULL);
+    //    
+    //    /* New rectangle */
+    //    rc.left += ((td->tile_wid - td->font_wid) / 2);
+    //    rc.right = rc.left + td->font_wid;
+    //    rc.top += ((td->tile_hgt - td->font_hgt) / 2);
+    //    rc.bottom = rc.top + td->font_hgt;
 
-        /* Dump each character */
-        for (i = 0; i < n; i++)
-        {
-            if (*(s+i)==127){
-                oldBrush = SelectObject(hdc, myBrush);
-                oldPen = SelectObject(hdc, GetStockObject(NULL_PEN) );
+    //    /* Dump each character */
+    //    for (i = 0; i < n; i++)
+    //    {
+    //        if (*(s+i)==127){
+    //            oldBrush = SelectObject(hdc, myBrush);
+    //            oldPen = SelectObject(hdc, GetStockObject(NULL_PEN) );
 
-                /* Dump the wall */
-                Rectangle(hdc, rc.left, rc.top, rc.right+1, rc.bottom+1);
-                _update_rect_enlarge(td, &rc);
+    //            /* Dump the wall */
+    //            Rectangle(hdc, rc.left, rc.top, rc.right+1, rc.bottom+1);
+    //            _update_rect_enlarge(td, &rc);
 
-                SelectObject(hdc, oldBrush);
-                SelectObject(hdc, oldPen);
+    //            SelectObject(hdc, oldBrush);
+    //            SelectObject(hdc, oldPen);
 
-                /* Advance */
-                rc.left += td->tile_wid;
-                rc.right += td->tile_wid;
-            } else {
-                /* Dump the text */
-                ExtTextOut(hdc, rc.left, rc.top, ETO_CLIPPED, &rc,
-                       s+i, 1, NULL);
-                _update_rect_enlarge(td, &rc);
-                /* Advance */
-                rc.left += td->tile_wid;
-                rc.right += td->tile_wid;
-            }
+    //            /* Advance */
+    //            rc.left += td->tile_wid;
+    //            rc.right += td->tile_wid;
+    //        } else {
+    //            /* Dump the text */
+    //            ExtTextOut(hdc, rc.left, rc.top, ETO_CLIPPED, &rc,
+    //                    s+i, 1, NULL);
+    //            _update_rect_enlarge(td, &rc);
+    //            /* Advance */
+    //            rc.left += td->tile_wid;
+    //            rc.right += td->tile_wid;
+    //        }
 
-        }
-    }
+    //    }
+    //}
 
-    /* Normal size */
-    else
-    {
-        /* Dump the text */
-        ExtTextOut(hdc, rc.left, rc.top, ETO_OPAQUE | ETO_CLIPPED, &rc,
-               s, n, NULL);
-    }
+    ///* Normal size */
+    //else
+    const int size = MultiByteToWideChar(CP_UTF8, 0, s, n, NULL, 0);
+    wchar_t *buf = malloc(sizeof(wchar_t) * size);
+    MultiByteToWideChar(CP_UTF8, 0, s, n, buf, size);
+    /* Dump the text */
+    ExtTextOutW(hdc, rc.left, rc.top, ETO_CLIPPED, &rc,
+            buf, size, NULL);
+    free(buf);
 
     /* Success */
     return 0;
