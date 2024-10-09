@@ -19,3 +19,4 @@ Please choose one of the following help sections:
     [o] Health Bar Colors
 
     (?) Help System Commands
+

@@ -50,7 +50,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Mage","Sorcery",17,"Inventory Protection",3,3,25
 "Mage","Sorcery",18,"Stair Creation",10,10,80
 "Mage","Sorcery",19,"Sense Minds",14,10,60
-"Mage","Sorcery",20,"Teleport to town",18,30,70
+"Mage","Sorcery",20,"Teleport to Town",18,30,70
 "Mage","Sorcery",21,"Self Knowledge",20,18,85
 "Mage","Sorcery",22,"Teleport Level",20,18,60
 "Mage","Sorcery",23,"Word of Recall",25,25,75
@@ -137,11 +137,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Mage","Death",8,"Enslave Undead",10,10,30
 "Mage","Death",9,"Orb of Entropy",12,12,40
 "Mage","Death",10,"Nether Bolt",13,12,30
-"Mage","Death",11,"Cloud kill",18,15,50
+"Mage","Death",11,"Cloud Kill",18,15,50
 "Mage","Death",12,"Genocide One",24,21,60
 "Mage","Death",13,"Poison Branding",30,75,80
 "Mage","Death",14,"Vampiric Drain",32,30,60
-"Mage","Death",15,"Animate dead",36,35,80
+"Mage","Death",15,"Animate Dead",36,35,80
 "Mage","Death",16,"Genocide",39,30,95
 "Mage","Death",17,"Berserk",10,20,80
 "Mage","Death",18,"Invoke Spirits",10,15,80
@@ -248,7 +248,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Mage","Craft",23,"Weaponmastery",41,60,70
 "Mage","Craft",24,"Magical Armor",45,55,70
 "Mage","Craft",25,"Remove All Curse",14,14,65
-"Mage","Craft",26,"Walk through Wall",30,55,80
+"Mage","Craft",26,"Simplification",30,55,80
 "Mage","Craft",27,"Knowledge True",36,45,90
 "Mage","Craft",28,"Enchantment",38,80,95
 "Mage","Craft",29,"Crafting",38,100,95
@@ -266,7 +266,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Mage","Daemon",9,"Dominate Demon",15,14,45
 "Mage","Daemon",10,"Vision",17,15,60
 "Mage","Daemon",11,"Resist Nether",20,18,50
-"Mage","Daemon",12,"Plasma bolt",23,15,50
+"Mage","Daemon",12,"Plasma Bolt",23,15,50
 "Mage","Daemon",13,"Fire Ball",25,16,50
 "Mage","Daemon",14,"Fire Branding",30,75,80
 "Mage","Daemon",15,"Nether Ball",32,28,70
@@ -402,7 +402,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Priest","Sorcery",17,"Inventory Protection",7,7,20
 "Priest","Sorcery",18,"Stair Creation",14,14,75
 "Priest","Sorcery",19,"Sense Minds",18,18,55
-"Priest","Sorcery",20,"Teleport to town",20,33,65
+"Priest","Sorcery",20,"Teleport to Town",20,33,65
 "Priest","Sorcery",21,"Self Knowledge",20,20,80
 "Priest","Sorcery",22,"Teleport Level",22,22,55
 "Priest","Sorcery",23,"Word of Recall",27,27,70
@@ -489,11 +489,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Priest","Death",8,"Enslave Undead",8,8,20
 "Priest","Death",9,"Orb of Entropy",10,10,30
 "Priest","Death",10,"Nether Bolt",11,10,20
-"Priest","Death",11,"Cloud kill",14,12,40
+"Priest","Death",11,"Cloud Kill",14,12,40
 "Priest","Death",12,"Genocide One",22,20,75
 "Priest","Death",13,"Poison Branding",26,65,70
 "Priest","Death",14,"Vampiric Drain",30,25,50
-"Priest","Death",15,"Animate dead",32,30,70
+"Priest","Death",15,"Animate Dead",32,30,70
 "Priest","Death",16,"Genocide",35,30,85
 "Priest","Death",17,"Berserk",8,15,70
 "Priest","Death",18,"Invoke Spirits",8,10,70
@@ -600,7 +600,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Priest","Craft",23,"Weaponmastery",43,70,70
 "Priest","Craft",24,"Magical Armor",46,60,70
 "Priest","Craft",25,"Remove All Curse",15,15,65
-"Priest","Craft",26,"Walk through Wall",33,58,75
+"Priest","Craft",26,"Simplification",33,58,75
 "Priest","Craft",27,"Knowledge True",38,50,85
 "Priest","Craft",28,"Enchantment",40,80,90
 "Priest","Craft",29,"Crafting",40,100,90
@@ -617,7 +617,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Priest","Daemon",9,"Dominate Demon",17,17,50
 "Priest","Daemon",10,"Vision",20,19,65
 "Priest","Daemon",11,"Resist Nether",23,23,60
-"Priest","Daemon",12,"Plasma bolt",25,18,65
+"Priest","Daemon",12,"Plasma Bolt",25,18,65
 "Priest","Daemon",13,"Fire Ball",27,20,65
 "Priest","Daemon",14,"Fire Branding",33,75,90
 "Priest","Daemon",15,"Nether Ball",35,32,70
@@ -721,7 +721,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Rogue","Sorcery",17,"Inventory Protection",9,3,65
 "Rogue","Sorcery",18,"Stair Creation",14,10,80
 "Rogue","Sorcery",19,"Sense Minds",16,10,60
-"Rogue","Sorcery",20,"Teleport to town",22,40,80
+"Rogue","Sorcery",20,"Teleport to Town",22,40,80
 "Rogue","Sorcery",21,"Self Knowledge",17,20,80
 "Rogue","Sorcery",22,"Teleport Level",18,17,60
 "Rogue","Sorcery",23,"Word of Recall",30,35,75
@@ -743,7 +743,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Rogue","Death",8,"Enslave Undead",19,19,30
 "Rogue","Death",9,"Orb of Entropy",21,21,60
 "Rogue","Death",10,"Nether Bolt",23,23,75
-"Rogue","Death",11,"Cloud kill",27,25,75
+"Rogue","Death",11,"Cloud Kill",27,25,75
 "Rogue","Death",12,"Genocide One",31,30,85
 "Rogue","Death",13,"Poison Branding",35,80,75
 "Rogue","Death",14,"Vampiric Drain",40,40,75
@@ -788,13 +788,13 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Rogue","Trump",28,"Trump Dragon",46,100,40
 "Rogue","Trump",29,"Trump Meteor",46,60,70
 "Rogue","Trump",30,"Trump Demon",49,125,40
-"Rogue","Arcane",1,"Zap",1,1,20
-"Rogue","Arcane",2,"Wizard Lock",1,1,33
-"Rogue","Arcane",3,"Detect Invisibility",2,1,33
-"Rogue","Arcane",4,"Detect Monsters",2,2,33
-"Rogue","Arcane",5,"Blink",3,3,33
-"Rogue","Arcane",6,"Light Area",5,5,40
-"Rogue","Arcane",7,"Trap & Door Destruction",6,6,33
+"Rogue","Arcane",1,"Zap",5,1,20
+"Rogue","Arcane",2,"Wizard Lock",5,1,33
+"Rogue","Arcane",3,"Detect Invisibility",5,1,33
+"Rogue","Arcane",4,"Detect Monsters",6,2,33
+"Rogue","Arcane",5,"Blink",6,3,33
+"Rogue","Arcane",6,"Light Area",6,5,40
+"Rogue","Arcane",7,"Trap & Door Destruction",7,6,33
 "Rogue","Arcane",8,"Cure Light Wounds",7,7,44
 "Rogue","Arcane",9,"Detect Doors & Traps",8,8,40
 "Rogue","Arcane",10,"Phlogiston",9,9,60
@@ -844,7 +844,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Rogue","Craft",22,"Polish Shield",41,60,80
 "Rogue","Craft",23,"Weaponmastery",48,80,75
 "Rogue","Craft",25,"Remove All Curse",24,24,75
-"Rogue","Craft",26,"Walk through Wall",37,65,80
+"Rogue","Craft",26,"Simplification",37,65,80
 "Rogue","Craft",27,"Knowledge True",42,60,90
 "Rogue","Craft",28,"Enchantment",42,80,80
 "Rogue","Craft",29,"Crafting",46,120,80
@@ -868,7 +868,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Ranger","Sorcery",17,"Inventory Protection",15,7,75
 "Ranger","Sorcery",18,"Stair Creation",17,17,70
 "Ranger","Sorcery",19,"Sense Minds",19,25,65
-"Ranger","Sorcery",20,"Teleport to town",22,40,70
+"Ranger","Sorcery",20,"Teleport to Town",22,40,70
 "Ranger","Sorcery",21,"Self Knowledge",23,25,60
 "Ranger","Sorcery",22,"Teleport Level",27,27,60
 "Ranger","Sorcery",23,"Word of Recall",35,35,75
@@ -948,11 +948,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Ranger","Death",8,"Enslave Undead",22,22,50
 "Ranger","Death",9,"Orb of Entropy",24,24,55
 "Ranger","Death",10,"Nether Bolt",26,26,50
-"Ranger","Death",11,"Cloud kill",28,28,75
+"Ranger","Death",11,"Cloud Kill",28,28,75
 "Ranger","Death",12,"Genocide One",34,35,85
 "Ranger","Death",13,"Poison Branding",42,85,80
 "Ranger","Death",14,"Vampiric Drain",43,50,90
-"Ranger","Death",15,"Animate dead",44,39,76
+"Ranger","Death",15,"Animate Dead",44,39,76
 "Ranger","Death",17,"Berserk",25,30,80
 "Ranger","Death",18,"Invoke Spirits",25,25,80
 "Ranger","Death",19,"Dark Bolt",27,27,40
@@ -1033,7 +1033,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Ranger","Daemon",9,"Dominate Demon",27,27,60
 "Ranger","Daemon",10,"Vision",29,26,70
 "Ranger","Daemon",11,"Resist Nether",32,30,70
-"Ranger","Daemon",12,"Plasma bolt",35,31,75
+"Ranger","Daemon",12,"Plasma Bolt",35,31,75
 "Ranger","Daemon",13,"Fire Ball",37,35,75
 "Ranger","Daemon",14,"Fire Branding",38,80,95
 "Ranger","Daemon",15,"Nether Ball",44,40,80
@@ -1091,11 +1091,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Paladin","Death",8,"Enslave Undead",15,15,40
 "Paladin","Death",9,"Orb of Entropy",17,17,40
 "Paladin","Death",10,"Nether Bolt",19,19,30
-"Paladin","Death",11,"Cloud kill",23,23,50
+"Paladin","Death",11,"Cloud Kill",23,23,50
 "Paladin","Death",12,"Genocide One",35,35,60
 "Paladin","Death",13,"Poison Branding",38,75,90
-"Paladin","Death",14,"Vampiric Drain",46,40,80
-"Paladin","Death",15,"Animate dead",45,38,70
+"Paladin","Death",14,"Vampiric Drain",40,40,80
+"Paladin","Death",15,"Animate Dead",45,38,70
 "Paladin","Death",16,"Genocide",47,35,95
 "Paladin","Death",17,"Berserk",15,20,80
 "Paladin","Death",18,"Invoke Spirits",15,20,80
@@ -1124,7 +1124,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Paladin","Daemon",9,"Dominate Demon",15,14,45
 "Paladin","Daemon",10,"Vision",17,15,60
 "Paladin","Daemon",11,"Resist Nether",20,18,50
-"Paladin","Daemon",12,"Plasma bolt",23,15,50
+"Paladin","Daemon",12,"Plasma Bolt",23,15,50
 "Paladin","Daemon",13,"Fire Ball",25,16,50
 "Paladin","Daemon",14,"Fire Branding",30,75,80
 "Paladin","Daemon",15,"Nether Ball",32,28,70
@@ -1228,7 +1228,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Warrior-Mage","Sorcery",17,"Inventory Protection",4,4,25
 "Warrior-Mage","Sorcery",18,"Stair Creation",14,12,80
 "Warrior-Mage","Sorcery",19,"Sense Minds",16,14,60
-"Warrior-Mage","Sorcery",20,"Teleport to town",21,35,70
+"Warrior-Mage","Sorcery",20,"Teleport to Town",21,35,70
 "Warrior-Mage","Sorcery",21,"Self Knowledge",19,19,85
 "Warrior-Mage","Sorcery",22,"Teleport Level",24,22,60
 "Warrior-Mage","Sorcery",23,"Word of Recall",28,28,75
@@ -1315,11 +1315,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Warrior-Mage","Death",8,"Enslave Undead",12,12,30
 "Warrior-Mage","Death",9,"Orb of Entropy",14,14,40
 "Warrior-Mage","Death",10,"Nether Bolt",16,16,30
-"Warrior-Mage","Death",11,"Cloud kill",21,21,50
+"Warrior-Mage","Death",11,"Cloud Kill",21,21,50
 "Warrior-Mage","Death",12,"Genocide One",28,28,85
 "Warrior-Mage","Death",13,"Poison Branding",35,75,80
 "Warrior-Mage","Death",14,"Vampiric Drain",38,35,60
-"Warrior-Mage","Death",15,"Animate dead",44,55,80
+"Warrior-Mage","Death",15,"Animate Dead",44,55,80
 "Warrior-Mage","Death",16,"Genocide",46,45,95
 "Warrior-Mage","Death",17,"Berserk",10,22,80
 "Warrior-Mage","Death",18,"Invoke Spirits",12,18,80
@@ -1426,7 +1426,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Warrior-Mage","Craft",23,"Weaponmastery",45,80,70
 "Warrior-Mage","Craft",24,"Magical Armor",48,65,70
 "Warrior-Mage","Craft",25,"Remove All Curse",17,17,70
-"Warrior-Mage","Craft",26,"Walk through Wall",35,65,80
+"Warrior-Mage","Craft",26,"Simplification",35,65,80
 "Warrior-Mage","Craft",27,"Knowledge True",40,55,90
 "Warrior-Mage","Craft",28,"Enchantment",43,100,95
 "Warrior-Mage","Craft",29,"Crafting",45,110,95
@@ -1443,7 +1443,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Warrior-Mage","Daemon",9,"Dominate Demon",19,19,45
 "Warrior-Mage","Daemon",10,"Vision",24,20,60
 "Warrior-Mage","Daemon",11,"Resist Nether",26,25,50
-"Warrior-Mage","Daemon",12,"Plasma bolt",29,30,50
+"Warrior-Mage","Daemon",12,"Plasma Bolt",29,30,50
 "Warrior-Mage","Daemon",13,"Fire Ball",33,33,50
 "Warrior-Mage","Daemon",14,"Fire Branding",35,75,80
 "Warrior-Mage","Daemon",15,"Nether Ball",42,34,70
@@ -1571,7 +1571,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Chaos-Warrior","Daemon",9,"Dominate Demon",16,15,45
 "Chaos-Warrior","Daemon",10,"Vision",23,22,50
 "Chaos-Warrior","Daemon",11,"Resist Nether",24,24,50
-"Chaos-Warrior","Daemon",12,"Plasma bolt",28,18,50
+"Chaos-Warrior","Daemon",12,"Plasma Bolt",28,18,50
 "Chaos-Warrior","Daemon",13,"Fire Ball",30,20,50
 "Chaos-Warrior","Daemon",14,"Fire Branding",33,75,90
 "Chaos-Warrior","Daemon",15,"Nether Ball",38,32,70
@@ -1666,11 +1666,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Monk","Death",8,"Enslave Undead",14,14,40
 "Monk","Death",9,"Orb of Entropy",16,16,40
 "Monk","Death",10,"Nether Bolt",19,19,30
-"Monk","Death",11,"Cloud kill",22,22,50
+"Monk","Death",11,"Cloud Kill",22,22,50
 "Monk","Death",12,"Genocide One",28,30,85
 "Monk","Death",13,"Poison Branding",33,80,90
 "Monk","Death",14,"Vampiric Drain",37,35,60
-"Monk","Death",15,"Animate dead",45,50,80
+"Monk","Death",15,"Animate Dead",45,50,80
 "Monk","Death",16,"Genocide",47,45,95
 "Monk","Death",17,"Berserk",15,20,80
 "Monk","Death",18,"Invoke Spirits",16,16,80
@@ -1745,7 +1745,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Monk","Craft",23,"Weaponmastery",46,100,95
 "Monk","Craft",24,"Magical Armor",49,70,75
 "Monk","Craft",25,"Remove All Curse",20,20,70
-"Monk","Craft",26,"Walk through Wall",37,60,80
+"Monk","Craft",26,"Simplification",37,60,80
 "Monk","Craft",27,"Knowledge True",41,55,90
 "Monk","Craft",28,"Enchantment",46,100,95
 "Monk","Craft",29,"Crafting",48,120,80
@@ -1802,7 +1802,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "High-Mage","Sorcery",17,"Inventory Protection",2,2,20
 "High-Mage","Sorcery",18,"Stair Creation",8,8,70
 "High-Mage","Sorcery",19,"Sense Minds",12,9,50
-"High-Mage","Sorcery",20,"Teleport to town",15,25,60
+"High-Mage","Sorcery",20,"Teleport to Town",15,25,60
 "High-Mage","Sorcery",21,"Self Knowledge",15,12,65
 "High-Mage","Sorcery",22,"Teleport Level",17,12,50
 "High-Mage","Sorcery",23,"Word of Recall",20,20,65
@@ -1889,11 +1889,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "High-Mage","Death",8,"Enslave Undead",8,8,20
 "High-Mage","Death",9,"Orb of Entropy",10,10,30
 "High-Mage","Death",10,"Nether Bolt",11,10,20
-"High-Mage","Death",11,"Cloud kill",14,12,40
+"High-Mage","Death",11,"Cloud Kill",14,12,40
 "High-Mage","Death",12,"Genocide One",22,20,75
 "High-Mage","Death",13,"Poison Branding",26,65,70
 "High-Mage","Death",14,"Vampiric Drain",30,25,50
-"High-Mage","Death",15,"Animate dead",32,30,70
+"High-Mage","Death",15,"Animate Dead",32,30,70
 "High-Mage","Death",16,"Genocide",35,30,85
 "High-Mage","Death",17,"Berserk",8,15,70
 "High-Mage","Death",18,"Invoke Spirits",8,10,70
@@ -2000,7 +2000,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "High-Mage","Craft",23,"Weaponmastery",38,40,60
 "High-Mage","Craft",24,"Magical Armor",42,50,60
 "High-Mage","Craft",25,"Remove All Curse",10,10,50
-"High-Mage","Craft",26,"Walk through Wall",27,45,70
+"High-Mage","Craft",26,"Simplification",27,45,70
 "High-Mage","Craft",27,"Knowledge True",29,40,80
 "High-Mage","Craft",28,"Enchantment",32,80,85
 "High-Mage","Craft",29,"Crafting",37,80,70
@@ -2018,7 +2018,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "High-Mage","Daemon",9,"Dominate Demon",13,11,35
 "High-Mage","Daemon",10,"Vision",15,13,35
 "High-Mage","Daemon",11,"Resist Nether",17,15,40
-"High-Mage","Daemon",12,"Plasma bolt",21,12,40
+"High-Mage","Daemon",12,"Plasma Bolt",21,12,40
 "High-Mage","Daemon",13,"Fire Ball",22,13,40
 "High-Mage","Daemon",14,"Fire Branding",26,65,70
 "High-Mage","Daemon",15,"Nether Ball",28,25,55
@@ -2204,7 +2204,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Sorcerer","Sorcery",17,"Inventory Protection",3,3,25
 "Sorcerer","Sorcery",18,"Stair Creation",10,10,80
 "Sorcerer","Sorcery",19,"Sense Minds",14,10,60
-"Sorcerer","Sorcery",20,"Teleport to town",18,30,70
+"Sorcerer","Sorcery",20,"Teleport to Town",18,30,70
 "Sorcerer","Sorcery",21,"Self Knowledge",20,18,85
 "Sorcerer","Sorcery",22,"Teleport Level",20,18,60
 "Sorcerer","Sorcery",23,"Word of Recall",25,25,75
@@ -2291,11 +2291,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Sorcerer","Death",8,"Enslave Undead",10,10,30
 "Sorcerer","Death",9,"Orb of Entropy",12,12,40
 "Sorcerer","Death",10,"Nether Bolt",13,12,30
-"Sorcerer","Death",11,"Cloud kill",18,15,50
+"Sorcerer","Death",11,"Cloud Kill",18,15,50
 "Sorcerer","Death",12,"Genocide One",24,21,60
 "Sorcerer","Death",13,"Poison Branding",30,75,80
 "Sorcerer","Death",14,"Vampiric Drain",32,30,60
-"Sorcerer","Death",15,"Animate dead",36,35,80
+"Sorcerer","Death",15,"Animate Dead",36,35,80
 "Sorcerer","Death",16,"Genocide",39,30,95
 "Sorcerer","Death",17,"Berserk",10,20,80
 "Sorcerer","Death",18,"Invoke Spirits",10,15,80
@@ -2402,7 +2402,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Sorcerer","Craft",23,"Weaponmastery",41,80,90
 "Sorcerer","Craft",24,"Magical Armor",45,55,70
 "Sorcerer","Craft",25,"Remove All Curse",14,14,65
-"Sorcerer","Craft",26,"Walk through Wall",30,55,80
+"Sorcerer","Craft",26,"Simplification",30,55,80
 "Sorcerer","Craft",27,"Knowledge True",36,45,90
 "Sorcerer","Craft",28,"Enchantment",38,100,95
 "Sorcerer","Craft",29,"Crafting",40,100,90
@@ -2420,7 +2420,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Sorcerer","Daemon",9,"Dominate Demon",15,14,45
 "Sorcerer","Daemon",10,"Vision",17,15,60
 "Sorcerer","Daemon",11,"Resist Nether",20,18,50
-"Sorcerer","Daemon",12,"Plasma bolt",23,15,50
+"Sorcerer","Daemon",12,"Plasma Bolt",23,15,50
 "Sorcerer","Daemon",13,"Fire Ball",25,16,50
 "Sorcerer","Daemon",14,"Fire Branding",30,75,80
 "Sorcerer","Daemon",15,"Nether Ball",32,28,70
@@ -2578,11 +2578,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Red-Mage","Death",8,"Enslave Undead",20,18,40
 "Red-Mage","Death",9,"Orb of Entropy",22,21,40
 "Red-Mage","Death",10,"Nether Bolt",25,22,30
-"Red-Mage","Death",11,"Cloud kill",27,27,50
+"Red-Mage","Death",11,"Cloud Kill",27,27,50
 "Red-Mage","Death",12,"Genocide One",35,35,85
 "Red-Mage","Death",13,"Poison Branding",38,90,90
 "Red-Mage","Death",14,"Vampiric Drain",41,38,60
-"Red-Mage","Death",15,"Animate dead",48,50,80
+"Red-Mage","Death",15,"Animate Dead",48,50,80
 "Red-Mage","Trump",1,"Phase Door",3,2,25
 "Red-Mage","Trump",2,"Trump Spiders",7,5,25
 "Red-Mage","Trump",3,"Shuffle",9,8,37
@@ -2656,7 +2656,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Red-Mage","Daemon",9,"Dominate Demon",28,27,60
 "Red-Mage","Daemon",10,"Vision",32,29,70
 "Red-Mage","Daemon",11,"Resist Nether",35,33,70
-"Red-Mage","Daemon",12,"Plasma bolt",38,36,75
+"Red-Mage","Daemon",12,"Plasma Bolt",38,36,75
 "Red-Mage","Daemon",13,"Fire Ball",41,40,75
 "Red-Mage","Daemon",14,"Fire Branding",42,90,90
 "Red-Mage","Daemon",15,"Nether Ball",47,50,75
@@ -2766,11 +2766,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Force-Trainer","Death",8,"Enslave Undead",12,12,40
 "Force-Trainer","Death",9,"Orb of Entropy",14,14,40
 "Force-Trainer","Death",10,"Nether Bolt",16,16,30
-"Force-Trainer","Death",11,"Cloud kill",21,21,50
+"Force-Trainer","Death",11,"Cloud Kill",21,21,50
 "Force-Trainer","Death",12,"Genocide One",27,27,85
 "Force-Trainer","Death",13,"Poison Branding",33,75,90
 "Force-Trainer","Death",14,"Vampiric Drain",36,35,60
-"Force-Trainer","Death",15,"Animate dead",44,55,80
+"Force-Trainer","Death",15,"Animate Dead",44,55,80
 "Force-Trainer","Death",16,"Genocide",46,45,95
 "Force-Trainer","Death",17,"Berserk",10,22,80
 "Force-Trainer","Death",18,"Invoke Spirits",12,18,80
@@ -2813,7 +2813,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Force-Trainer","Craft",23,"Weaponmastery",45,100,95
 "Force-Trainer","Craft",24,"Magical Armor",48,65,75
 "Force-Trainer","Craft",25,"Remove All Curse",17,17,70
-"Force-Trainer","Craft",26,"Walk through Wall",35,60,80
+"Force-Trainer","Craft",26,"Simplification",35,60,80
 "Force-Trainer","Craft",27,"Knowledge True",40,55,90
 "Force-Trainer","Craft",28,"Enchantment",43,100,95
 "Force-Trainer","Craft",29,"Crafting",45,110,80
@@ -2902,7 +2902,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Blood-Mage","Sorcery",17,"Inventory Protection",3,3,25
 "Blood-Mage","Sorcery",18,"Stair Creation",10,10,80
 "Blood-Mage","Sorcery",19,"Sense Minds",14,10,60
-"Blood-Mage","Sorcery",20,"Teleport to town",18,30,70
+"Blood-Mage","Sorcery",20,"Teleport to Town",18,30,70
 "Blood-Mage","Sorcery",21,"Self Knowledge",20,18,85
 "Blood-Mage","Sorcery",22,"Teleport Level",20,18,60
 "Blood-Mage","Sorcery",23,"Word of Recall",25,25,75
@@ -2988,11 +2988,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Blood-Mage","Death",8,"Enslave Undead",10,10,30
 "Blood-Mage","Death",9,"Orb of Entropy",12,12,40
 "Blood-Mage","Death",10,"Nether Bolt",13,12,30
-"Blood-Mage","Death",11,"Cloud kill",18,15,50
+"Blood-Mage","Death",11,"Cloud Kill",18,15,50
 "Blood-Mage","Death",12,"Genocide One",24,21,60
 "Blood-Mage","Death",13,"Poison Branding",30,75,80
 "Blood-Mage","Death",14,"Vampiric Drain",32,30,60
-"Blood-Mage","Death",15,"Animate dead",36,35,80
+"Blood-Mage","Death",15,"Animate Dead",36,35,80
 "Blood-Mage","Death",16,"Genocide",39,30,95
 "Blood-Mage","Death",17,"Berserk",10,20,80
 "Blood-Mage","Death",18,"Invoke Spirits",10,15,80
@@ -3099,7 +3099,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Blood-Mage","Craft",23,"Weaponmastery",41,60,70
 "Blood-Mage","Craft",24,"Magical Armor",45,55,70
 "Blood-Mage","Craft",25,"Remove All Curse",14,14,65
-"Blood-Mage","Craft",26,"Walk through Wall",30,55,80
+"Blood-Mage","Craft",26,"Simplification",30,55,80
 "Blood-Mage","Craft",27,"Knowledge True",36,45,90
 "Blood-Mage","Craft",28,"Enchantment",38,100,95
 "Blood-Mage","Craft",29,"Crafting",40,100,90
@@ -3117,7 +3117,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Blood-Mage","Daemon",9,"Dominate Demon",15,14,45
 "Blood-Mage","Daemon",10,"Vision",17,15,60
 "Blood-Mage","Daemon",11,"Resist Nether",20,18,50
-"Blood-Mage","Daemon",12,"Plasma bolt",23,15,50
+"Blood-Mage","Daemon",12,"Plasma Bolt",23,15,50
 "Blood-Mage","Daemon",13,"Fire Ball",25,16,50
 "Blood-Mage","Daemon",14,"Fire Branding",30,75,80
 "Blood-Mage","Daemon",15,"Nether Ball",32,28,70
@@ -3283,7 +3283,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Yellow-Mage","Sorcery",17,"Inventory Protection",3,3,25
 "Yellow-Mage","Sorcery",18,"Stair Creation",10,10,80
 "Yellow-Mage","Sorcery",19,"Sense Minds",14,10,60
-"Yellow-Mage","Sorcery",20,"Teleport to town",18,30,70
+"Yellow-Mage","Sorcery",20,"Teleport to Town",18,30,70
 "Yellow-Mage","Sorcery",21,"Self Knowledge",20,18,85
 "Yellow-Mage","Sorcery",22,"Teleport Level",20,18,60
 "Yellow-Mage","Sorcery",23,"Word of Recall",25,25,75
@@ -3362,11 +3362,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Yellow-Mage","Death",8,"Enslave Undead",10,10,30
 "Yellow-Mage","Death",9,"Orb of Entropy",12,12,40
 "Yellow-Mage","Death",10,"Nether Bolt",13,12,30
-"Yellow-Mage","Death",11,"Cloud kill",18,15,50
+"Yellow-Mage","Death",11,"Cloud Kill",18,15,50
 "Yellow-Mage","Death",12,"Genocide One",24,21,60
 "Yellow-Mage","Death",13,"Poison Branding",30,75,80
 "Yellow-Mage","Death",14,"Vampiric Drain",32,30,60
-"Yellow-Mage","Death",15,"Animate dead",36,35,80
+"Yellow-Mage","Death",15,"Animate Dead",36,35,80
 "Yellow-Mage","Death",16,"Genocide",39,30,95
 "Yellow-Mage","Death",17,"Berserk",10,20,80
 "Yellow-Mage","Death",18,"Invoke Spirits",10,15,80
@@ -3470,7 +3470,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Yellow-Mage","Craft",23,"Weaponmastery",41,60,70
 "Yellow-Mage","Craft",24,"Magical Armor",45,55,70
 "Yellow-Mage","Craft",25,"Remove All Curse",14,14,65
-"Yellow-Mage","Craft",26,"Walk through Wall",30,55,80
+"Yellow-Mage","Craft",26,"Simplification",30,55,80
 "Yellow-Mage","Craft",27,"Knowledge True",36,45,90
 "Yellow-Mage","Craft",28,"Enchantment",38,80,95
 "Yellow-Mage","Craft",29,"Crafting",38,100,95
@@ -3486,7 +3486,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Yellow-Mage","Daemon",9,"Dominate Demon",15,14,45
 "Yellow-Mage","Daemon",10,"Vision",17,15,60
 "Yellow-Mage","Daemon",11,"Resist Nether",20,18,50
-"Yellow-Mage","Daemon",12,"Plasma bolt",23,15,50
+"Yellow-Mage","Daemon",12,"Plasma Bolt",23,15,50
 "Yellow-Mage","Daemon",13,"Fire Ball",25,16,50
 "Yellow-Mage","Daemon",14,"Fire Branding",30,75,80
 "Yellow-Mage","Daemon",15,"Nether Ball",32,28,70
@@ -3613,7 +3613,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Gray-Mage","Sorcery",17,"Inventory Protection",3,3,25
 "Gray-Mage","Sorcery",18,"Stair Creation",10,10,80
 "Gray-Mage","Sorcery",19,"Sense Minds",14,10,60
-"Gray-Mage","Sorcery",20,"Teleport to town",18,30,70
+"Gray-Mage","Sorcery",20,"Teleport to Town",18,30,70
 "Gray-Mage","Sorcery",21,"Self Knowledge",20,18,85
 "Gray-Mage","Sorcery",22,"Teleport Level",20,18,60
 "Gray-Mage","Sorcery",23,"Word of Recall",25,25,75
@@ -3700,11 +3700,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Gray-Mage","Death",8,"Enslave Undead",10,10,30
 "Gray-Mage","Death",9,"Orb of Entropy",12,12,40
 "Gray-Mage","Death",10,"Nether Bolt",13,12,30
-"Gray-Mage","Death",11,"Cloud kill",18,15,50
+"Gray-Mage","Death",11,"Cloud Kill",18,15,50
 "Gray-Mage","Death",12,"Genocide One",24,21,60
 "Gray-Mage","Death",13,"Poison Branding",30,75,80
 "Gray-Mage","Death",14,"Vampiric Drain",32,30,60
-"Gray-Mage","Death",15,"Animate dead",36,35,80
+"Gray-Mage","Death",15,"Animate Dead",36,35,80
 "Gray-Mage","Death",16,"Genocide",39,30,95
 "Gray-Mage","Death",17,"Berserk",10,20,80
 "Gray-Mage","Death",18,"Invoke Spirits",10,15,80
@@ -3811,7 +3811,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Gray-Mage","Craft",23,"Weaponmastery",41,60,70
 "Gray-Mage","Craft",24,"Magical Armor",45,55,70
 "Gray-Mage","Craft",25,"Remove All Curse",14,14,65
-"Gray-Mage","Craft",26,"Walk through Wall",30,55,80
+"Gray-Mage","Craft",26,"Simplification",30,55,80
 "Gray-Mage","Craft",27,"Knowledge True",36,45,90
 "Gray-Mage","Craft",28,"Enchantment",38,80,95
 "Gray-Mage","Craft",29,"Crafting",38,100,95
@@ -3829,7 +3829,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Gray-Mage","Daemon",9,"Dominate Demon",15,14,45
 "Gray-Mage","Daemon",10,"Vision",17,15,60
 "Gray-Mage","Daemon",11,"Resist Nether",20,18,50
-"Gray-Mage","Daemon",12,"Plasma bolt",23,15,50
+"Gray-Mage","Daemon",12,"Plasma Bolt",23,15,50
 "Gray-Mage","Daemon",13,"Fire Ball",25,16,50
 "Gray-Mage","Daemon",14,"Fire Branding",30,75,80
 "Gray-Mage","Daemon",15,"Nether Ball",32,28,70
@@ -3965,7 +3965,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Skillmaster","Sorcery",17,"Inventory Protection",3,3,25
 "Skillmaster","Sorcery",18,"Stair Creation",10,10,80
 "Skillmaster","Sorcery",19,"Sense Minds",14,10,60
-"Skillmaster","Sorcery",20,"Teleport to town",18,30,70
+"Skillmaster","Sorcery",20,"Teleport to Town",18,30,70
 "Skillmaster","Sorcery",21,"Self Knowledge",20,18,85
 "Skillmaster","Sorcery",22,"Teleport Level",20,18,60
 "Skillmaster","Sorcery",23,"Word of Recall",25,25,75
@@ -4052,11 +4052,11 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Skillmaster","Death",8,"Enslave Undead",10,10,30
 "Skillmaster","Death",9,"Orb of Entropy",12,12,40
 "Skillmaster","Death",10,"Nether Bolt",13,12,30
-"Skillmaster","Death",11,"Cloud kill",18,15,50
+"Skillmaster","Death",11,"Cloud Kill",18,15,50
 "Skillmaster","Death",12,"Genocide One",24,21,60
 "Skillmaster","Death",13,"Poison Branding",30,75,80
 "Skillmaster","Death",14,"Vampiric Drain",32,30,60
-"Skillmaster","Death",15,"Animate dead",36,35,80
+"Skillmaster","Death",15,"Animate Dead",36,35,80
 "Skillmaster","Death",16,"Genocide",39,30,95
 "Skillmaster","Death",17,"Berserk",10,20,80
 "Skillmaster","Death",18,"Invoke Spirits",10,15,80
@@ -4163,7 +4163,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Skillmaster","Craft",23,"Weaponmastery",41,60,70
 "Skillmaster","Craft",24,"Magical Armor",45,55,70
 "Skillmaster","Craft",25,"Remove All Curse",14,14,65
-"Skillmaster","Craft",26,"Walk through Wall",30,55,80
+"Skillmaster","Craft",26,"Simplification",30,55,80
 "Skillmaster","Craft",27,"Knowledge True",36,45,90
 "Skillmaster","Craft",28,"Enchantment",38,80,95
 "Skillmaster","Craft",29,"Crafting",38,100,95
@@ -4181,7 +4181,7 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Skillmaster","Daemon",9,"Dominate Demon",15,14,45
 "Skillmaster","Daemon",10,"Vision",17,15,60
 "Skillmaster","Daemon",11,"Resist Nether",20,18,50
-"Skillmaster","Daemon",12,"Plasma bolt",23,15,50
+"Skillmaster","Daemon",12,"Plasma Bolt",23,15,50
 "Skillmaster","Daemon",13,"Fire Ball",25,16,50
 "Skillmaster","Daemon",14,"Fire Branding",30,75,80
 "Skillmaster","Daemon",15,"Nether Ball",32,28,70
@@ -4266,3 +4266,35 @@ Class,Realm,Index,Name,Level,Cost,Fail
 "Skillmaster","Armageddon",30,"Breathe Disintegration",43,50,80
 "Skillmaster","Armageddon",31,"Breathe Mana",45,50,85
 "Skillmaster","Armageddon",32,"Breathe Shards",47,55,85
+"Politician","Trump",1,"Phase Door",1,1,25
+"Politician","Trump",2,"Trump Spiders",3,3,25
+"Politician","Trump",3,"Shuffle",5,6,37
+"Politician","Trump",4,"Reset Recall",6,7,40
+"Politician","Trump",5,"Teleport",7,9,20
+"Politician","Trump",6,"Trump Spying",11,15,30
+"Politician","Trump",7,"Teleport Away",14,18,30
+"Politician","Trump",8,"Trump Animals",18,25,30
+"Politician","Trump",9,"Trump Reach",20,25,40
+"Politician","Trump",10,"Trump Kamikaze",23,25,35
+"Politician","Trump",11,"Phantasmal Servant",25,30,30
+"Politician","Trump",12,"Haste Monster",30,35,40
+"Politician","Trump",13,"Teleport Level",33,35,35
+"Politician","Trump",14,"Dimension Door",35,40,45
+"Politician","Trump",15,"Word of Recall",40,45,40
+"Politician","Trump",16,"Banish",42,50,35
+"Politician","Trump",17,"Swap Position",22,45,70
+"Politician","Trump",18,"Trump Undead",24,32,35
+"Politician","Trump",19,"Trump Reptiles",26,35,35
+"Politician","Trump",20,"Trump Monsters",30,35,35
+"Politician","Trump",21,"Trump Hounds",30,38,35
+"Politician","Trump",22,"Trump Branding",35,88,40
+"Politician","Trump",23,"Living Trump",40,125,45
+"Politician","Trump",24,"Trump Cyberdemon",45,125,45
+"Politician","Trump",25,"Trump Divination",30,38,30
+"Politician","Trump",26,"Trump Lore",35,52,45
+"Politician","Trump",27,"Heal Monster",36,70,40
+"Politician","Trump",28,"Trump Dragon",39,100,40
+"Politician","Trump",29,"Trump Meteor",41,55,70
+"Politician","Trump",30,"Trump Demon",47,125,40
+"Politician","Trump",31,"Trump Greater Undead",48,125,40
+"Politician","Trump",32,"Trump Ancient Dragon",49,125,40

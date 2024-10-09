@@ -144,14 +144,14 @@ Melee
   spells; otherwise, play as a warrior and wait to absorb mana. This 
   can take time, depending on the foes you face, but the Rune-Knight's 
   honor should prevent them from seeking out weak, defenseless 
-  spellcasters; being one of the strongest classes, Rune-Knights have 
-  no need to resort to exploits...
+  spellcasters; and in any case, weak attacks can only take your mana 
+  so high.
   
   See [d] for more details on rune knights.
   
     Stats                   Skills
-    Strength      +2        Disarming   Fair         
-    Intelligence  +1        Device      Fair         
+    Strength      +0        Disarming   Fair         
+    Intelligence  +1        Device      Poor         
     Wisdom        -1        Save        Fair         
     Dexterity     +1        Stealth     Poor         
     Constitution  +0        Searching   Poor         
@@ -278,7 +278,7 @@ Archery
     Dexterity     +2        Stealth     Good         
     Constitution  +1        Searching   Fair         
     Charisma      +0        Perception  Poor         
-    Life Rating  111%       Melee       Good         
+    Life Rating  110%       Melee       Good         
     Base HP       12        Archery     Amber[12]    
     Experience   110%
     
@@ -351,8 +351,7 @@ Martial Arts
   
   The various sects of monks are devoted to different areas of magic; 
   they select one realm from Life, Nature, Craft, Trump and Death. 
-  Monks will eventually learn all prayers in the discipline of their 
-  choice. Wisdom determines their spellcasting ability.
+  Wisdom determines their spellcasting ability.
   
   Monks have two class powers, 'Assume a Posture' and 'Double Attack'; 
   they can choose different postures for different situations, and use 
@@ -890,7 +889,7 @@ Hybrid
     Dexterity     +0        Stealth     Poor         
     Constitution  +2        Searching   Poor         
     Charisma      +2        Perception  Bad          
-    Life Rating  111%       Melee       Excellent    
+    Life Rating  110%       Melee       Excellent    
     Base HP       12        Archery     Very Good    
     Experience   135%
     
@@ -954,19 +953,19 @@ Hybrid
   warrior and a mage. To support their good-for-mages combat abilities, 
   Warrior-Mages begin the game with Arcane magic and can freely select 
   another spell realm. Although they do not gain new spells as fast as 
-  regular mages, they will eventually learn every spell in both realms, 
-  thus making them a very competitive choice for those who appreciate 
-  Arcane spells. Their class powers allow them to convert either HP to 
-  mana, or mana to HP, as needed.
+  regular mages, they can eventually learn all or almost all spells in 
+  both realms, making them a very competitive choice for those who 
+  appreciate Arcane magic. Their class powers allow them to convert 
+  either HP to mana, or mana to HP, as needed.
   
     Stats                   Skills
     Strength      +2        Disarming   Fair         
-    Intelligence  +2        Device      Excellent    
-    Wisdom        +0        Save        Fair         
+    Intelligence  +2        Device      Good         
+    Wisdom        -1        Save        Fair         
     Dexterity     +1        Stealth     Poor         
     Constitution  +0        Searching   Poor         
     Charisma      +1        Perception  Poor         
-    Life Rating  106%       Melee       Good         
+    Life Rating  105%       Melee       Good         
     Base HP        8        Archery     Good         
     Experience   140%
     
@@ -1080,10 +1079,10 @@ Mind
   
   The potency of psionic powers can be scaled up or down as needed, 
   within limits; the more mana is spent, the more powerful the effect. 
-  All psionic powers require great concentration, leaving the Psion 
-  little time for pets. Psions do not have one fixed spell stat; they 
-  can use either Intelligence, Wisdom or Charisma, whichever is the 
-  highest. In this respect they are truly unique!
+  All psionic powers require great concentration, leaving the Psion no 
+  time for pets. Psions do not have one fixed spell stat; they can use 
+  either Intelligence, Wisdom or Charisma, whichever is the highest. In 
+  this respect they are truly unique!
   
     Stats                   Skills
     Strength      -1        Disarming   Poor         
@@ -1360,12 +1359,12 @@ Berserker      +8  -20  -20   +4   +4   +4  200%  +22  160%
 Blood-Knight   +2   -2   -2   +0   +3   +2  120%  +20  150%
 Duelist        +2   +1   -2   +2   -3   +2  100%   +4  150%
 Mauler         +5   -2   -2   -1   +3   +2  110%  +18  120%
-Rune-Knight    +2   +1   -1   +1   +0   +1  101%   +7  150%
+Rune-Knight    +0   +1   -1   +1   +0   +1  101%   +7  150%
 Samurai        +2   -2   +1   +2   +1   +1  107%  +12  130%
 Warrior        +4   -2   -2   +2   +2   +1  115%  +18  100%
 Weaponmaster   +3   -3   -2   -2   +1   +0  105%  +12  135%
 Weaponsmith    +3   -1   -1   +1   +0   -1  106%  +12  130%
-Archer         +2   -1   -1   +2   +1   +0  111%  +12  110%
+Archer         +2   -1   -1   +2   +1   +0  110%  +12  110%
 Sniper         +2   -1   -1   +2   +1   +0  100%   +4  110%
 Force-Trainer  +0   -1   +3   +2   +1   +0  100%   +4  135%
 Monk           +1   -1   +1   +3   +2   +1  102%  +12  130%
@@ -1388,10 +1387,10 @@ Scout          +1   -1   +2   +3   +0   +0  104%   +8  130%
 Chaos-Warrior  +2   +1   -1   +0   +1   +1  109%  +12  125%
 Disciple       -1   +1   -1   +0   -1   +1   95%  +14  125%
 Ninja-Lawyer   -1   +0   +0   +2   +0   +2   99%   +8  115%
-Paladin        +2   -3   +1   +0   +2   +2  111%  +12  135%
+Paladin        +2   -3   +1   +0   +2   +2  110%  +12  135%
 Ranger         +2   +0   +2   +1   +1   +0  106%   +8  140%
 Red-Mage       +2   +2   -1   +1   +0   -1  106%   +8  140%
-Warrior-Mage   +2   +2   +0   +1   +0   +1  106%   +8  140%
+Warrior-Mage   +2   +2   -1   +1   +0   +1  105%   +8  140%
 Beastmaster    +1   -1   -1   +1   +0   +2  103%   +6  120%
 Cavalry        +2   -2   -2   +2   +2   +1  111%  +10  120%
 Mindcrafter    -1   +0   +3   -1   -1   +2   99%   +4  125%
@@ -1416,7 +1415,7 @@ Berserker     Very Bad      Very Bad      Very Bad      Very Bad
 Blood-Knight  Good          Bad           Fair          Poor         
 Duelist       Fair          Fair          Bad           Fair         
 Mauler        Good          Fair          Good          Bad          
-Rune-Knight   Fair          Fair          Fair          Poor         
+Rune-Knight   Fair          Poor          Fair          Poor         
 Samurai       Good          Bad           Fair          Poor         
 Warrior       Good          Bad           Poor          Poor         
 Weaponmaster  Poor          Bad           Bad           Poor         
@@ -1447,7 +1446,7 @@ Ninja-Lawyer  Excellent     Good          Fair          Superb
 Paladin       Poor          Fair          Fair          Poor         
 Ranger        Fair          Excellent     Fair          Fair         
 Red-Mage      Poor          Very Good     Fair          Poor         
-Warrior-Mage  Fair          Excellent     Fair          Poor         
+Warrior-Mage  Fair          Good          Fair          Poor         
 Beastmaster   Poor          Fair          Fair          Poor         
 Cavalry       Fair          Bad           Fair          Poor         
 Mindcrafter   Fair          Very Good     Fair          Fair         
@@ -1523,5 +1522,5 @@ Wild-Talent   Fair          Poor          Good          Excellent
 
 
 
-Automatically generated for FrogComposband 7.1.liquorice.
+Automatically generated for FrogComposband 7.1.salmiak.
 

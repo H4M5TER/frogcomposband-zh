@@ -170,25 +170,25 @@ Weapon Smiths:
 
     Solvistani the Ranger (Wood-Elf)                     Weapon Smiths (25000)  
                                                                                 
-    Item Description                                               Weight  Price
- a) ? a Rage Spellbook [Northern Frights]                         3.0 lbs   1610
- b) ~ a Quiver [100]                                              1.0 lbs    423
- c) ~ a Quiver [70]                                               1.0 lbs     61
- d) | a Rapier (1d8) (+0,+0) {25% off}                            4.0 lbs     35
- e) | a Small Sword (1d8) (+0,+0)                                 7.5 lbs     89
- f) | a Short Sword (1d8) (+0,+0)                                 8.0 lbs     95
- g) | a Sabre (1d9) (+0,+0)                                       5.0 lbs     68
- h) | a Broad Sword (2d6) (+0,+0)                                15.0 lbs    330
- i) | a Bastard Sword (3d5) (+0,+0)                              14.0 lbs    411
- j) / a Sickle (2d4) (+0,+0)                                      7.0 lbs    182
- k) / 2 Tridents (1d10) (+0,+0)                                   7.0 lbs    192
- l) / a Fauchard (1d12) (+0,+0)                                  15.5 lbs    319
- m) / a Broad Axe (2d7) (+5,+2)                                  13.0 lbs   1340
- n) / a Lance (2d10) (+0,+0)                                     30.0 lbs    750
- o) / a Battle Axe (2d9) (+4,+3)                                 17.0 lbs   1700
- p) } a Short Bow (x2.50) (+3,+6)                                 3.0 lbs   1540
- q) { 43 Bolts (3d5) (+0,+0)                                      0.3 lbs      6
- r) { 39 Arrows (3d4) (+0,+0)                                     0.2 lbs      3
+    Item Description                                               Weight  Pric
+ a) ? a Rage Spellbook [Northern Frights]                         3.0 lbs   161
+ b) ~ a Quiver [100]                                              1.0 lbs    42
+ c) ~ a Quiver [70]                                               1.0 lbs     6
+ d) | a Rapier (1d8) (+0,+0) {25% off}                            4.0 lbs     3
+ e) | a Small Sword (1d8) (+0,+0)                                 7.5 lbs     8
+ f) | a Short Sword (1d8) (+0,+0)                                 8.0 lbs     9
+ g) | a Sabre (1d9) (+0,+0)                                       5.0 lbs     6
+ h) | a Broad Sword (2d6) (+0,+0)                                15.0 lbs    33
+ i) | a Bastard Sword (3d5) (+0,+0)                              14.0 lbs    41
+ j) / a Sickle (2d4) (+0,+0)                                      7.0 lbs    18
+ k) / 2 Tridents (1d10) (+0,+0)                                   7.0 lbs    19
+ l) / a Fauchard (1d12) (+0,+0)                                  15.5 lbs    31
+ m) / a Broad Axe (2d7) (+5,+2)                                  13.0 lbs   134
+ n) / a Lance (2d10) (+0,+0)                                     30.0 lbs    75
+ o) / a Battle Axe (2d9) (+4,+3)                                 17.0 lbs   170
+ p) } a Short Bow (x2.50) (+3,+6)                                 3.0 lbs   154
+ q) { 43 Bolts (3d5) (+0,+0)                                      0.3 lbs      
+ r) { 39 Arrows (3d4) (+0,+0)                                     0.2 lbs      
  
 Here, we see a bunch of different types of weapons, each of which is 
 fully *Identified* (as objects in town shops always are). They don't 
@@ -765,12 +765,12 @@ List of Abbreviations
   Dx : affects dexterity              Li : resistance to light
   Cn : affects constitution           Dk : resistance to darkness
   Ch : affects charisma               Cf : resistance to confusion
-  Md : affects magic devices          Nt : resistance to nether
+  Md : affects device skill           Nt : resistance to nether
   Sl : affects stealth                Nx : resistance to nexus
   Sr : affects searching ability      So : resistance to sound
   If : affects infravision            Sh : resistance to shards
   Dg : affects tunneling ability      Ca : resistance to chaos
-  Lf : affects your life rating       Di : resistance to disenchantment
+  Lf : affects life multiplier        Di : resistance to disenchantment
   *Ac: immune to acid                 Ti : resistance to time
   *El: immune to electricity          Bl : resistance to blindness
   *Fi: immune to fire                 Fe : resistance to fear
@@ -783,21 +783,22 @@ List of Abbreviations
   Fa : free action                    [At: aura of retaliation
   Si : see invisible                  [M : anti-magic shell
   Hl : hold life                      [T : prevents teleportation
-  Sd : slow digestion                 [Mr: magic resistance
-  Id : loremastery (auto-identify)    [Sm: anti-summoning shell
-  Rg : regeneration                   |A : acid brand
+  Sd : slow digestion                 [Sm: anti-summoning shell
+  Rg : regeneration                   [Mr: magic resistance
+  Rm : mana recovery                  |A : acid brand
   Lv : levitation                     |E : electricity brand
-  Lu : extra light                    |F : fire brand
-  Wr : provides warning               |Co: cold brand
-  Xm : extra might when shooting      |P : poison brand
-  Xs : extra shots (shooting speed)   |Dk: darkness brand
-  Te : random teleportaion            |V : vampiric weapon
+  Nv : night vision                   |F : fire brand
+  Lu : extra light                    |Co: cold brand
+  Wr : provides warning               |P : poison brand
+  Xm : extra might when shooting      |Dk: darkness brand
+  Xs : extra shots (shooting speed)   |Ca: mark of chaos
+  Te : random teleportation           |V : vampiric weapon
   Ag : aggravate monsters             |Q : impact weapon
-  Bs : blessed                        |S : sharp weapon
-  Ty : ancient foul curse             |SS: really sharp weapon
-  Ds : darkness                       |M : mana brand
-  Nv : night vision                   |Ca: mark of chaos
-  Wm : weaponmastery (extra dice)     |St: hits to stun
+  Bs : blessed                        |St: hits to stun
+  Ty : ancient foul curse             |S : sharp weapon
+  Ds : darkness                       |SS: really sharp weapon
+  Wm : weaponmastery (extra dice)     |M : mana brand
+  Id : loremastery (auto-identify)
 
   /* : slay evil                      /X* : *slay* evil
   /p : slay human                     /Xp : *slay* human
@@ -832,6 +833,8 @@ radius, aggravates monsters, is both vampiric and sharp (|V and |S;
 notice the second | does not repeat), has *slay* demons, also slays 
 evil and grants ESP demons as well. (Quick quiz: which item is it?)
 
+See [n] for a more detailed explanation of these object properties.
+
 Inscriptions: Summary
 
 Inscription Form     Meaning
@@ -865,7 +868,7 @@ $                    Disable warning prompt.
                      Command-Letter command is issued, provided the 
                      inscribed object is currently being worn.
 
-Be sure to read [n] if this is unclear to you.
+Be sure to read [o] if this is unclear to you.
 
 --
 Original   : (??)

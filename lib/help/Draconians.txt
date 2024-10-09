@@ -11,7 +11,7 @@ Intelligence  +0        Device      <color:R>Poor         </color>
 Wisdom        +0        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:R>Poor         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  104%       Melee       <color:G>Excellent    </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   190%       Infravision 20'
@@ -25,7 +25,7 @@ Intelligence  +0        Device      <color:R>Poor         </color>
 Wisdom        +0        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:R>Poor         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  104%       Melee       <color:G>Excellent    </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   190%       Infravision 20'
@@ -39,7 +39,7 @@ Intelligence  +1        Device      <color:R>Poor         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:o>Fair         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  103%       Melee       <color:G>Excellent    </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   190%       Infravision 20'
@@ -53,7 +53,7 @@ Intelligence  +1        Device      <color:R>Poor         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:o>Fair         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  103%       Melee       <color:G>Excellent    </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   190%       Infravision 20'
@@ -67,7 +67,7 @@ Intelligence  +1        Device      <color:o>Fair         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:y>Good         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  101%       Melee       <color:y>Good         </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   205%       Infravision 20'
@@ -81,7 +81,7 @@ Intelligence  +2        Device      <color:y>Good         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:y>Good         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  101%       Melee       <color:y>Good         </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   215%       Infravision 20'
@@ -95,7 +95,7 @@ Intelligence  -1        Device      <color:R>Poor         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +0        Stealth     <color:o>Fair         </color>
 Constitution  +3        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  103%       Melee       <color:G>Excellent    </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   250%       Infravision 20'
@@ -109,7 +109,7 @@ Intelligence  +1        Device      <color:y>Good         </color>
 Wisdom        +2        Save        <color:o>Fair         </color>
 Dexterity     +1        Stealth     <color:y>Good         </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  102%       Melee       <color:y>Good         </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   220%       Infravision 20'
@@ -123,7 +123,7 @@ Intelligence  +1        Device      <color:o>Fair         </color>
 Wisdom        +1        Save        <color:o>Fair         </color>
 Dexterity     +3        Stealth     <color:G>Excellent    </color>
 Constitution  +2        Searching   <color:o>Fair         </color>
-Charisma      +2        Perception  <color:y>Good         </color>
+Charisma      +2        Perception  <color:o>Fair         </color>
 Life Rating  100%       Melee       <color:o>Fair         </color>
 Base HP       22        Archery     <color:o>Fair         </color>
 Experience   225%       Infravision 40'
@@ -159,15 +159,15 @@ Shadow       <color:R>Poor         </color> <color:o>Fair         </color> <colo
 <topic:Skills2><style:heading>Table 3 - Draconian Skill Bonus Table II</style>
 <style:table>
              <color:w>Searching     Perception    Melee         Archery       Infra</color>
-Red          <color:o>Fair         </color> <color:y>Good         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
-White        <color:o>Fair         </color> <color:y>Good         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
-Blue         <color:o>Fair         </color> <color:y>Good         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
-Black        <color:o>Fair         </color> <color:y>Good         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
-Green        <color:o>Fair         </color> <color:y>Good         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
-Bronze       <color:o>Fair         </color> <color:y>Good         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
-Crystal      <color:o>Fair         </color> <color:y>Good         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
-Gold         <color:o>Fair         </color> <color:y>Good         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
-Shadow       <color:o>Fair         </color> <color:y>Good         </color> <color:o>Fair         </color> <color:o>Fair         </color>   40'
+Red          <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
+White        <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
+Blue         <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
+Black        <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
+Green        <color:o>Fair         </color> <color:o>Fair         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
+Bronze       <color:o>Fair         </color> <color:o>Fair         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
+Crystal      <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:o>Fair         </color>   20'
+Gold         <color:o>Fair         </color> <color:o>Fair         </color> <color:y>Good         </color> <color:o>Fair         </color>   20'
+Shadow       <color:o>Fair         </color> <color:o>Fair         </color> <color:o>Fair         </color> <color:o>Fair         </color>   40'
 
 </style>
 <topic:Powers><style:heading>Table 4 - Draconian Special Powers</style>
@@ -205,4 +205,4 @@ You will be able to summon aid from dragons.</indent>
 
 
 
-<color:s>Automatically generated for FrogComposband 7.1.liquorice.</color>
+<color:s>Automatically generated for FrogComposband 7.1.salmiak.</color>

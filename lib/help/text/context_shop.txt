@@ -17,19 +17,19 @@ owner and the items available for purchase:
  
      Vengella the Cruel (Half-Troll)                            Armory (15000)  
                                                                                 
-     Item Description                                              Weight  Price
-  a) ( Soft Leather Armour of Protection [4,+16]                  8.0 lbs  10400
-  b) ( Cord Armour [6,+4]                                         8.0 lbs   1010
-  c) ( Cord Armour [6,+0]                                         8.0 lbs    272
-  d) ( Leather Scale Mail (-1) [11,+0]                           14.0 lbs   1540
-  e) ( a Leather Jacket (-1) [12,+0]                             13.0 lbs   1870
-  f) ] a Hard Leather Cap [2,+3]                                  1.5 lbs    546
-  g) ] a Metal Cap [3,+0]                                         2.0 lbs     35
-  h) ] a Set of Studded Leather Gloves (+1) [1,+0]                0.5 lbs   1010
-  i) ] a Set of Studded Leather Gloves (+1) [1,+0] {25% off}      0.5 lbs    758
-  j) ] a Pair of Soft Leather Boots [2,+0]                        2.0 lbs     10
-  k) ] a Pair of Hard Leather Boots [3,+0]                        4.0 lbs     35
-  l) ] a Pair of Metal Shod Boots (+2) [4,+0]                     8.0 lbs   2220
+     Item Description                                              Weight  Pric
+  a) ( Soft Leather Armour of Protection [4,+16]                  8.0 lbs  1040
+  b) ( Cord Armour [6,+4]                                         8.0 lbs   101
+  c) ( Cord Armour [6,+0]                                         8.0 lbs    27
+  d) ( Leather Scale Mail (-1) [11,+0]                           14.0 lbs   154
+  e) ( a Leather Jacket (-1) [12,+0]                             13.0 lbs   187
+  f) ] a Hard Leather Cap [2,+3]                                  1.5 lbs    54
+  g) ] a Metal Cap [3,+0]                                         2.0 lbs     3
+  h) ] a Set of Studded Leather Gloves (+1) [1,+0]                0.5 lbs   101
+  i) ] a Set of Studded Leather Gloves (+1) [1,+0] {25% off}      0.5 lbs    75
+  j) ] a Pair of Soft Leather Boots [2,+0]                        2.0 lbs     1
+  k) ] a Pair of Hard Leather Boots [3,+0]                        4.0 lbs     3
+  l) ] a Pair of Metal Shod Boots (+2) [4,+0]                     8.0 lbs   222
                                                                                 
  Gold Remaining: 1.94k                                                          
                                                                                 

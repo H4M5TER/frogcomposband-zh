@@ -100,9 +100,11 @@ quite enough to prevent item destruction.
 A few races, such as Androids (electricity) or Werewolves and Ents 
 (fire), are exceptionally vulnerable to one element and trigger special 
 resistance calculations for that element only. The item destruction 
-limit is lowered in these special cases (three sources of resistance 
-will still fully protect your inventory); but damage and side-effect 
-calculations are not similarly forgiving.
+limit is lowered in these special cases; Androids use a 54-sided die 
+for electricity, as do Ents for fire; and Werewolves use a 53-sided die 
+for fire, allowing them to still fully protect their inventory with 
+three sources of resistance. But damage and side-effect calculations 
+are not similarly forgiving.
 
 A number of exotic elements (like gravity) have no corresponding 
 resistance, though it may still be possible to resist some of their 

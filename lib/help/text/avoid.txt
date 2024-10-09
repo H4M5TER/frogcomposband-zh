@@ -125,7 +125,8 @@ Do not completely neglect items useful in niche situations, especially
 if you know where those situations will happen. You might not carry 
 Potions of Resist Heat and Cold all the time, but it's still a good 
 idea to take some to the Smaug and Utgard-Loke fights. Similarly, 
-Potions of Vigor will be highly valuable in the Micro$oft quest.
+Potions of Vigor will be highly valuable in the Micro$oft quest, and 
+Staves of Starlight can be handy in Old Watchtower.
 
 Do not underestimate mushrooms, especially Mushrooms of Cure Poison 
 (the game's most effective means to neutralize poison) and the 

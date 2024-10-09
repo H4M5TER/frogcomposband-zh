@@ -51,13 +51,13 @@ Hydras are monsters with multiple heads. As they evolve, they grow additional he
 Hydras are not very magical, and so play much like warriors but with a few extra abilities. Five- and seven-headed hydras resist poison and gain a few poison-based attacks. Nine- and eleven-headed hydras are creatures of flame: they resist fire, their attacks burn, and they are capable of breathing fire among other flame-based attacks. All hydras regenerate extremely rapidly.
 
   <indent><style:table><color:G>Stats                   Skills</color>
-Strength     <color:w> +3</color>        Disarming   <color:y>Good         </color>
+Strength     <color:w> +1</color>        Disarming   <color:y>Good         </color>
 Intelligence <color:w> -2</color>        Device      <color:R>Poor         </color>
 Wisdom       <color:w> -2</color>        Save        <color:o>Fair         </color>
 Dexterity    <color:w> +2</color>        Stealth     <color:R>Poor         </color>
 Constitution <color:w> +3</color>        Searching   <color:r>Bad          </color>
 Charisma     <color:w> +0</color>        Perception  <color:r>Bad          </color>
-Life Rating  108%       Melee       <color:y>Good         </color>
+Life Rating  105%       Melee       <color:y>Good         </color>
 Base HP       45        Archery     <color:r>Bad          </color>
 Experience   130%       Infravision 50'
 </style></indent>
@@ -178,7 +178,7 @@ Experience   170%       Infravision 50'
 <topic:Vortex><color:o>Vortex</color>
 Vortices are mindless whirlwinds of elemental forces twirling their way through the dungeon in search of prey. They are seldom confused and never blinded since they lack vision in the normal sense; indeed, they seem to be aware of their surroundings even without eyes, and need not wear a light source. They can be neither stunned nor cut, and their mindless nature renders them immune to fear. But, alas! they are hopeless with magical devices and somewhat weak in melee; and while they may breathe almost effortlessly, their breath attacks are not particularly strong.
  
-Vortices do not have normal bodies; rather, they are simply a rapidly spinning elemental mass. As such, they may incorporate objects into their rotating essence, gaining bonuses and protection in the process. The number of objects they may use increases with level, and there are no restrictions on the types of equipment they may 'wield' in each slot. While they may equip weapons this way, they cannot attack with them; instead, the vortex may engulf nearby monsters with their elemental essence.
+Vortices do not have normal bodies; rather, they are simply a rapidly spinning elemental mass. As such, they may incorporate objects into their rotating essence, gaining bonuses and protection in the process. The number of objects they may use increases with level, and there are no restrictions on the types of equipment they may 'wield' in each slot. While they may equip weapons this way, they cannot attack with them; instead, vortex melee relies on their innate ability to engulf nearby monsters in the whirling elements.
  
 Vortices evolve randomly, though all seem to end up with the evolutionary perfection of the Aether vortex. At level 50 they gain a special talent to augment their power.
 
@@ -274,9 +274,11 @@ Experience   150%       Infravision 50'
   <indent><topic:Death-Sword><color:o>Death-Sword</color>
 Death-Swords are mighty weapons animated by magical means. As such, they are unable to use equipment the way other players can; instead, they simply are a weapon of their current form. But never fear: Death Swords have the power to absorb magical essences from the weapons they find, gaining power in the process.
 
+As a Death-Sword gains levels, it will evolve into stronger and stronger weapons. More advanced weapons require more essences to enchant, sometimes causing a temporary loss of abilities; but magical weapons also become easier to find as you descend deeper into the pits, and so any lost powers are usually quickly recovered.
+
   <indent><style:table><color:G>Stats                   Skills</color>
 Strength     <color:w> +4</color>        Disarming   <color:y>Good         </color>
-Intelligence <color:w> -5</color>        Device      <color:o>Fair         </color>
+Intelligence <color:w> -5</color>        Device      <color:R>Poor         </color>
 Wisdom       <color:w> -5</color>        Save        <color:y>Very Good    </color>
 Dexterity    <color:w> +1</color>        Stealth     <color:y>Good         </color>
 Constitution <color:w> +4</color>        Searching   <color:R>Poor         </color>
@@ -404,7 +406,7 @@ Experience   150%       Infravision 50'
   <indent><topic:Lich><color:o>Lich</color>
 Liches are the undead forms of former sorcerers. Their magic is strong, but their fighting skills weak. As undead, they quickly gain resistance to cold, poison and nether, and these resistances increase as the lich evolves.
  
-Liches are born with magical powers, and gain additional powers as they advance; of all the monster races, none can surpass the firepower of an Archlich, but managing to evolve that far can be a challenge. Intelligence is the primary spell stat.
+Liches are born with magical powers, and gain additional powers as they advance; of all the monster races, none can surpass the firepower of an Archlich, but managing to evolve that far can be a challenge. Intelligence is their primary spell stat.
  
 Liches are humanoid, and so use the standard set of equipment items; but should they forgo the use of a normal weapon, they may touch their opponents for various powerful effects. Even with this deadly touch, though, melee will never be their strong suit.
 
@@ -412,17 +414,35 @@ Liches are humanoid, and so use the standard set of equipment items; but should 
 Strength     <color:w> -3</color>        Disarming   <color:o>Fair         </color>
 Intelligence <color:v> +4</color>        Device      <color:b>Heroic       </color>
 Wisdom       <color:w> -4</color>        Save        <color:y>Good         </color>
-Dexterity    <color:w> +2</color>        Stealth     <color:g>Superb       </color>
-Constitution <color:w> -1</color>        Searching   <color:R>Poor         </color>
+Dexterity    <color:w> +2</color>        Stealth     <color:y>Good         </color>
+Constitution <color:w> -1</color>        Searching   <color:y>Very Good    </color>
 Charisma     <color:w> +1</color>        Perception  <color:o>Fair         </color>
-Life Rating   98%       Melee       <color:r>Bad          </color>
-Base HP       20        Archery     <color:r>Bad          </color>
-Experience   275%       Infravision 50'
+Life Rating   90%       Melee       <color:r>Bad          </color>
+Base HP       18        Archery     <color:r>Bad          </color>
+Experience   225%       Infravision 50'
+</style></indent>
+<topic:Mummy><color:o>Mummy</color>
+Zombies and mummies are among the most feared of all undead races. Evil curses are a mummy's bread and butter; not only can they hex their opponents, they can also curse and uncurse their own equipment at will; and the stronger and more numerous the curses they are wrapped in, the greater their magical powers. Of course, they will also have to cope with being cursed...
+
+You begin unlife as a humble Zombified human, with few curses or other abilities at your disposal; but soon you will evolve into a a Mummified human, and things really start picking up. Mummy evolution is somewhat random - you might find yourself a strong but stupid Draugr or a wily but weak Mummified sorcerer - but ultimately, you will combine strength and magic in the spine-chilling final form of a Mummy king.
+
+Being creatures of tombs and the night, zombies and mummies can easily see without a light; indeed, carrying a light source saps the dark energy of their curses. In melee, they prefer to rely on their innate attacks; equipping a weapon serves only to distract them from their real fighting skills, and is only a viable offensive option in the earliest parts of the game.
+
+  <indent><style:table><color:G>Stats                   Skills</color>
+Strength     <color:w> -1</color>        Disarming   <color:R>Poor         </color>
+Intelligence <color:w> -2</color>        Device      <color:D>Very Bad     </color>
+Wisdom       <color:w> -3</color>        Save        <color:y>Good         </color>
+Dexterity    <color:w> -2</color>        Stealth     <color:R>Poor         </color>
+Constitution <color:w> +0</color>        Searching   <color:R>Poor         </color>
+Charisma     <color:v> -1</color>        Perception  <color:r>Bad          </color>
+Life Rating  100%       Melee       <color:G>Excellent    </color>
+Base HP       22        Archery     <color:y>Good         </color>
+Experience   135%       Infravision 50'
 </style></indent>
 <topic:Vampire><color:o>Vampire</color>
 One of the mightier undead creatures, the Vampire is an awe-inspiring sight. Yet this dread creature has a serious weakness: the bright rays of sun are its bane, and it will need to flee the surface to the deep recesses of earth until the sun finally sets. Being undead, Vampires resist nether and have a firm hold on their life force; vampires also resists cold and poison, and darkness only makes them feel at home. Vampires are, however, susceptible to their perpetual hunger for fresh blood, which can only be satiated by sucking blood from a nearby monster.
  
-Vampires gain access to various dark powers as they evolve. Of course, they gain a vampiric bite at a very early stage, as they must use this power to feed on the living. Killing humans with this power is also a means of perpetuating the vampire species, and many are the servants of true prince of darkness! Vampires are rumored to have limited shapeshifting abilities and a powerful, hypnotic gaze.
+Vampires gain access to various dark powers as they evolve. Of course, they gain a vampiric bite at a very early stage, as they must use this power to feed on the living. Killing humans with this power is also a means of perpetuating the vampire species, and many are the servants of a true prince of darkness! Vampires are rumored to have limited shapeshifting abilities and a powerful, hypnotic gaze.
 
   <indent><style:table><color:G>Stats                   Skills</color>
 Strength     <color:w> +4</color>        Disarming   <color:R>Poor         </color>
@@ -473,7 +493,7 @@ Experience   150%       Infravision 50'
 <color:G>            </color> <color:G>STR  INT  WIS  DEX  CON  CHR  Life  BHP  Exp  Shop</color>
 Centipede     +0   -3   -3   +0   +0   -3   90%  +15  100%  120%
 Hound         +3   -3   -5   +4   +3   +1  100%  +22  150%  110%
-Hydra         +3   -2   -2   +2   +3   +0  108%  +45  130%  130%
+Hydra         +1   -2   -2   +2   +3   +0  105%  +45  130%  130%
 Spider        +1   +0   -5   +0   +2   +0  100%  +25  200%  115%
 Angel         +2   +2   +5   +2   +2   +4   99%  +26  325%   90%
 Beholder      -3   +7   +0   +2   +0   +1  100%  +20  200%  140%
@@ -492,7 +512,8 @@ Ring          -3   +4   +1   +0   -1   +3   85%  +10  150%  110%
 Giant         +8   -3   -3   -2   +5   +1  117%  +46  200%  130%
 Orc           -1   -4   -5   +0   +0   -5   99%  +30  100%  140%
 Troll         +5   -5   -5   -1   +5   +0  112%  +50  150%  135%
-Lich          -3   +4   -4   +2   -1   +1   98%  +20  275%  135%
+Lich          -3   +4   -4   +2   -1   +1   90%  +18  225%  135%
+Mummy         -1   -2   -3   -2   +0   -1  100%  +22  135%  120%
 Vampire       +4   +1   -3   +2   -2   +4   96%  +20  250%  130%
 Pumpkin       +1   -2   -2   +0   +1   -2  102%  +15  115%  110%
 Xorn          +4   -4   -2   -1   +2   -1  104%  +25  150%  120%
@@ -514,7 +535,7 @@ Golem        <color:o>Fair         </color> <color:r>Bad          </color> <colo
 Jelly        <color:y>Good         </color> <color:r>Bad          </color> <color:y>Good         </color> <color:g>Superb       </color>
 Quylthulg    <color:o>Fair         </color> <color:b>Heroic       </color> <color:y>Very Good    </color> <color:g>Superb       </color>
 Leprechaun   <color:y>Good         </color> <color:v>Amber[2]     </color> <color:y>Good         </color> <color:v>Amber[10]    </color>
-Death-Sword  <color:y>Good         </color> <color:o>Fair         </color> <color:y>Very Good    </color> <color:y>Good         </color>
+Death-Sword  <color:y>Good         </color> <color:R>Poor         </color> <color:y>Very Good    </color> <color:y>Good         </color>
 Filthy Rag   <color:y>Good         </color> <color:R>Poor         </color> <color:y>Very Good    </color> <color:y>Good         </color>
 Mimic        <color:R>Poor         </color> <color:y>Good         </color> <color:o>Fair         </color> <color:R>Poor         </color>
 Possessor    <color:r>Bad          </color> <color:r>Bad          </color> <color:R>Poor         </color> <color:b>Heroic       </color>
@@ -522,7 +543,8 @@ Ring         <color:o>Fair         </color> <color:g>Superb       </color> <colo
 Giant        <color:o>Fair         </color> <color:r>Bad          </color> <color:R>Poor         </color> <color:r>Bad          </color>
 Orc          <color:o>Fair         </color> <color:D>Very Bad     </color> <color:R>Poor         </color> <color:R>Poor         </color>
 Troll        <color:R>Poor         </color> <color:r>Bad          </color> <color:R>Poor         </color> <color:R>Poor         </color>
-Lich         <color:o>Fair         </color> <color:b>Heroic       </color> <color:y>Good         </color> <color:g>Superb       </color>
+Lich         <color:o>Fair         </color> <color:b>Heroic       </color> <color:y>Good         </color> <color:y>Good         </color>
+Mummy        <color:R>Poor         </color> <color:D>Very Bad     </color> <color:y>Good         </color> <color:R>Poor         </color>
 Vampire      <color:R>Poor         </color> <color:G>Excellent    </color> <color:o>Fair         </color> <color:b>Heroic       </color>
 Pumpkin      <color:r>Bad          </color> <color:R>Poor         </color> <color:y>Good         </color> <color:R>Poor         </color>
 Xorn         <color:y>Good         </color> <color:r>Bad          </color> <color:R>Poor         </color> <color:R>Poor         </color>
@@ -552,7 +574,8 @@ Ring         <color:R>Poor         </color> <color:R>Poor         </color> <colo
 Giant        <color:R>Poor         </color> <color:r>Bad          </color> <color:b>Heroic       </color> <color:o>Fair         </color>   50'
 Orc          <color:R>Poor         </color> <color:r>Bad          </color> <color:G>Excellent    </color> <color:G>Excellent    </color>   30'
 Troll        <color:R>Poor         </color> <color:r>Bad          </color> <color:g>Superb       </color> <color:R>Poor         </color>   50'
-Lich         <color:R>Poor         </color> <color:o>Fair         </color> <color:r>Bad          </color> <color:r>Bad          </color>   50'
+Lich         <color:y>Very Good    </color> <color:o>Fair         </color> <color:r>Bad          </color> <color:r>Bad          </color>   50'
+Mummy        <color:R>Poor         </color> <color:r>Bad          </color> <color:G>Excellent    </color> <color:y>Good         </color>   50'
 Vampire      <color:o>Fair         </color> <color:o>Fair         </color> <color:G>Excellent    </color> <color:R>Poor         </color>   50'
 Pumpkin      <color:R>Poor         </color> <color:r>Bad          </color> <color:g>Superb       </color> <color:R>Poor         </color>   20'
 Xorn         <color:R>Poor         </color> <color:r>Bad          </color> <color:y>Very Good    </color> <color:r>Bad          </color>   50'
@@ -560,4 +583,4 @@ Xorn         <color:R>Poor         </color> <color:r>Bad          </color> <colo
 </style>
 
 
-<color:s>Automatically generated for FrogComposband 7.1.liquorice.</color>
+<color:s>Automatically generated for FrogComposband 7.1.salmiak.</color>

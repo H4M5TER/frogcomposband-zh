@@ -311,6 +311,15 @@ for y with mfe as the action; mfe*5 or *5mfe if you want to go a step
 further and automatically target the nearest monster. See [b] for more 
 spell examples.
 
+Example #6: Screenshots
+The screenshot key ) is somewhat limited in that it only works in 
+specific situations and can blank potentially interesting material like 
+messages. The special key x1d (keycode 29) will take a screenshot at 
+any time without such downsides, but many keyboards or platforms offer 
+no way to actually trigger keycode 29. Add the macro sequence \x1d to 
+your favorite key, say F11, and use it to take a screenshot whenever 
+you want! (Note that this must be a macro, not a keymap.)
+
     Remember to append your macros and keymaps to a file.
 
 Original   : Alexander Cutler and Andy Astrand

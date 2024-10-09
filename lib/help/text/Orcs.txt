@@ -70,5 +70,5 @@ Orc shaman        Fair          Poor          Good          Good            30'
 
 
 
-Automatically generated for FrogComposband 7.1.liquorice.
+Automatically generated for FrogComposband 7.1.salmiak.
 

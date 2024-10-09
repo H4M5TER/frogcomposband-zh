@@ -87,7 +87,7 @@ like this:
  potions:enlightenment                                                          
                                                                                 
  potions:of strength#!k                                                         
- -------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
  This line is a comment.                                                        
  
 If you are new, you probably want to run from this complexity as fast 
@@ -143,7 +143,7 @@ destruction. Your screen might look something like:
  # *Warning!* The lines below will be deleted later.                            
  # Keep them by cut & paste if you need them for future characters.             
  (!nameless lights:^wooden torch$                                               
- -------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
  Destroy all light sources whose name begins with "wooden torch$", and which ar 
  neither ego-item nor artifact. Do not display as wanted.  This line will be    
  deleted later.
@@ -181,7 +181,7 @@ by adding the following line to the top of the preferences file:
  ?:[EQU $RACE Snotling Doppelganger]                                            
  ~mushroom                                                                      
  ?:1                                                                            
- -------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
  Pick up all items which have "cure critical wounds" as part of their name.
  Display these items as wanted in object list.
  
@@ -195,19 +195,19 @@ rule.
 Now, let's press ] to activate the Object List - is there anything on 
 this level that I want?
 
-There are 4 wanted objects:                                         LEVEL      1
- ! 4 Potions of Cure Critical Wounds    S  4 E 16                   EXP        3
-                                                                    AU       747
+There are 4 wanted objects:                                         LEVEL      
+ ! 4 Potions of Cure Critical Wounds    S  4 E 16                   EXP        
+                                                                    AU       74
 There are 4 other objects:                                          |      !(   
- ~ 4 Wooden Torches {unidentified}      N  3 E 17                   STR :     16
-   [Press ESC to exit. Press ? for help]                            INT :     18
->.....#+#.%%                                                        WIS :      9
-%%%%.%%.#.%                         ##..                            DEX :  18/40
-   %'%....#                        #%....                           CON :     17
-  %%......%                       %%.~..%                           CHR :     12
- #%......+%         %%%          %#....%%..                         AC         6
-%#........%%%%%%%%%#%.%%        ##..........                        HP   37/  37
-%.........'.'.......@..#%      #%..........#                        SP   14/  14
+ ~ 4 Wooden Torches {unidentified}      N  3 E 17                   STR :     1
+   [Press ESC to exit. Press ? for help]                            INT :     1
+>.....#+#.%%                                                        WIS :      
+%%%%.%%.#.%                         ##..                            DEX :  18/4
+   %'%....#                        #%....                           CON :     1
+  %%......%                       %%.~..%                           CHR :     1
+ #%......+%         %%%          %#....%%..                         AC         
+%#........%%%%%%%%%#%.%%        ##..........                        HP   37/  3
+%.........'.'.......@..#%      #%..........#                        SP   14/  1
 %%%......%%%%%%%%%%%#*'.###%% #%....##....*                                     
 ..'.......#       %.......%..#%....%%....#%                                     
 %%##......%       %........%%%....##....##                                      
@@ -260,7 +260,9 @@ discuss each of these in turn.
   ~  Leave on the floor
   
   These are the primary actions. Pick-up is assumed if the rule does 
-  not begin with !, ; or ~.
+  not begin with !, ; or ~. Note that if the always_pickup option is 
+  on, then ; and ~ will be overridden by it; and even ! is overridden 
+  unless the leave_mogaminator option is also on.
   
   In addition, there are the following action letters that augment the 
   primary action:
@@ -680,7 +682,7 @@ done through the ESC menu:
  potions:enlightenment                                                          
                                                                                 
  potions:of strength#!k                                                         
- -------------------------------------------------------------------------------
+ ------------------------------------------------------------------------------
  This line is a comment.                                                        
  
 Here, you can clearly see what commands to use to move the cursor 
@@ -715,17 +717,23 @@ This section will give all the nitty-gritty syntax details for the
 Mogaminator. But first, where are those preference files located 
 anyway? The default preferences are initialized from 
 lib/pref/pickpref.prf; so if you want to edit the default preferences 
-for all characters, this is the file to edit. Once you activate the 
-Mogaminator, your preferences are stored in a separate file in a 
-system-dependent location. On Windows, they will be stored at 
-lib/user/pickpref-NAME.prf, while on Linux they might be moved to 
-~/.angband/FrogComposband/pickpref-NAME.prf (outside the game's 
-directory structure). Here, NAME is replaced with your player's current 
-name. So if you want to edit your character's preferences using an 
-outside text editor, this is the file you need to change. It's usually 
-simpler to just use the in-game editor; but if you do edit preferences 
-outside the game while you are playing, be sure to use the $ command to 
-force the game to reload the preference file.
+for all characters, this is the file to edit. You can also create your 
+own personal default preferences at /lib/user/pickpref-UserDefault.prf; 
+this has the advantage that you don't need to overwrite the original 
+defaults, and can go back to them easily if you start disliking your 
+changes. (Another advantage of the user defaults is that you can set 
+and edit them in-game, which you cannot do with the global defaults.)
+
+Once you activate the Mogaminator, your preferences are stored in a 
+separate file in a system-dependent location. On Windows, they will be 
+stored at lib/user/pickpref-NAME.prf, while on Linux they might be 
+moved to ~/.angband/FrogComposband/pickpref-NAME.prf (outside the 
+game's directory structure). Here, NAME is replaced with your player's 
+current name. So if you want to edit your character's preferences using 
+an outside text editor, this is the file you need to change. It's 
+usually simpler to just use the in-game editor; but if you do edit 
+preferences outside the game while you are playing, be sure to use the 
+$ command to force the game to reload the preference file.
 
 The promised reference tables follow below... enjoy!
 

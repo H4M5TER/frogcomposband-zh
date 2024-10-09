@@ -217,19 +217,19 @@ the example below, the drop command simply offers every item in the
 inventory as a possibility, so Scrolls of Genocide are labeled 'l':
 
 Inventory | Equipment | Quiver                                                  
- a) ? a Law Book [Obstacle Coursebook] {25% off, @mb!k}      3.0 lb LEVEL     50
- b) ? a Law Book [Building Alternative Realities] {@mc!sd    3.0 lb EXP ********
- c) ? a Law Book [Acquiris Quodcumque Rapis] {@md!sdk}       3.0 lb AU      462k
- d) , 23 Mushrooms of Restoring {!E}                         2.3 lb |)}~=="~((]]
- e) ! 15 Potions of Speed {25% off, !kq}                     6.0 lb STR!: 18/160
- f) ! 15 Potions of Heroism                                  6.0 lb INT!: 18/160
- g) ! 41 Potions of Healing {!kq}                           16.4 lb WIS!: 18/160
- h) ! 8 Potions of *Healing* {!kq}                           3.2 lb DEX : 18/***
- i) ! 5 Potions of Life {!kq}                                2.0 lb CON : 18/217
- j) ! 18 Potions of Restore Mana {!kq}                       7.2 lb CHR!: 18/150
- k) ? 12 Scrolls of Destruction {@r7!*}                      6.0 lb AC       156
- l) ? 9 Scrolls of Genocide {!*}                             4.5 lb HP  950/ 951
- m) ? 8 Scrolls of Mass Genocide {!*}                        4.0 lb SP  141/ 402
+ a) ? a Law Book [Obstacle Coursebook] {25% off, @mb!k}      3.0 lb LEVEL     5
+ b) ? a Law Book [Building Alternative Realities] {@mc!sd    3.0 lb EXP *******
+ c) ? a Law Book [Acquiris Quodcumque Rapis] {@md!sdk}       3.0 lb AU      462
+ d) , 23 Mushrooms of Restoring {!E}                         2.3 lb |)}~=="~((]
+ e) ! 15 Potions of Speed {25% off, !kq}                     6.0 lb STR!: 18/16
+ f) ! 15 Potions of Heroism                                  6.0 lb INT!: 18/16
+ g) ! 41 Potions of Healing {!kq}                           16.4 lb WIS!: 18/16
+ h) ! 8 Potions of *Healing* {!kq}                           3.2 lb DEX : 18/**
+ i) ! 5 Potions of Life {!kq}                                2.0 lb CON : 18/21
+ j) ! 18 Potions of Restore Mana {!kq}                       7.2 lb CHR!: 18/15
+ k) ? 12 Scrolls of Destruction {@r7!*}                      6.0 lb AC       15
+ l) ? 9 Scrolls of Genocide {!*}                             4.5 lb HP  950/ 95
+ m) ? 8 Scrolls of Mass Genocide {!*}                        4.0 lb SP  141/ 40
  n) - a Rod: Clairvoyance (2/2 charges) {47%}                1.5 lb             
  o) - a Rod: Detection (7/7 charges) {1%, @zb!sdk}           1.5 lb             
  p) - a Rod: Recall (5/5 charges) {1%, @zc!sdk}              1.5 lb             
