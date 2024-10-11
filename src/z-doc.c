@@ -729,14 +729,23 @@ cptr doc_lex(cptr pos, doc_token_ptr token)
         }
     }
     token->type = DOC_TOKEN_WORD;
-    token->pos = pos++;
-    token->size = 1;
+    token->pos = pos;
+    token->size = 0;
 
-    while (*pos && !strchr(" <\n", *pos))
+    if ((*pos) & 0x80) {// bits start with 1 
+        // not ascii, assuming utf-8
+        do {
+            token->size++;
+            pos++;
+        } while (*pos && (*pos & 0xC0) == 0x80); // continuation byte
+        return pos;
+    }
+
+    do
     {
         token->size++;
         pos++;
-    }
+    } while (*pos && !strchr(" <\n", *pos));
     return pos;
 }
 
@@ -920,7 +929,6 @@ doc_pos_t doc_insert(doc_ptr doc, cptr text)
     int         qidx = 0;
     cptr        pos = text;
     int         i, j, cb;
-    bool        nowrap = FALSE;
     doc_style_ptr style = NULL;
 
     for (;;)
@@ -941,7 +949,6 @@ doc_pos_t doc_insert(doc_ptr doc, cptr text)
         if (token.type == DOC_TOKEN_NEWLINE)
         {
             doc_newline(doc);
-            nowrap = FALSE;
             continue;
         }
 
@@ -954,89 +961,28 @@ doc_pos_t doc_insert(doc_ptr doc, cptr text)
         assert(token.type == DOC_TOKEN_WORD);
         assert(token.size > 0);
 
-        /* Queue Complexity is for "<color:R>difficult</color>!" which is actually a bit common! */
-        qidx = 0;
-        cb = token.size;
-        queue[qidx++] = token;
-        while (qidx < 10)
-        {
-            cptr peek = doc_lex(pos, &token);
-            if (token.type == DOC_TOKEN_WORD)
-            {
-                cb += token.size;
-            }
-            else if ( token.type == DOC_TOKEN_TAG
-                   && (token.tag.type == DOC_TAG_COLOR || token.tag.type == DOC_TAG_CLOSE_COLOR) )
-            {
-            }
-            else /* whitespace or newline */
-            {
-                break;
-            }
-            queue[qidx++] = token;
-            pos = peek;
-        }
+        style = doc_current_style(doc);
+        doc_char_ptr cell = doc_char(doc, doc->cursor);
+        assert(cell);
 
-        style = doc_current_style(doc); /* be careful ... this changes on <color:_> tags! */
-        if ( doc->cursor.x + cb >= style->right
-          && !(style->options & DOC_STYLE_NO_WORDWRAP) )
+        if (doc->cursor.x + token.size >= style->right)
         {
+            if (style->options & DOC_STYLE_NO_WORDWRAP)
+            {
+                continue;
+            }
             doc_newline(doc);
             if (style->indent)
                 doc_insert_space(doc, style->indent);
+            cell = doc_char(doc, doc->cursor);
         }
 
-        for (i = 0; i < qidx; i++)
+        for (j = 0; j < token.size; j++, doc->cursor.x++, cell++)
         {
-            doc_token_ptr current = &queue[i];
-
-            if (current->type == DOC_TOKEN_TAG)
-            {
-                assert(current->tag.type == DOC_TAG_COLOR || current->tag.type == DOC_TAG_CLOSE_COLOR);
-                _doc_process_tag(doc, &current->tag);
-                style = doc_current_style(doc);
-            }
-            else if (doc->cursor.x < style->right)
-            {
-                doc_char_ptr cell = doc_char(doc, doc->cursor);
-
-                assert(current->type == DOC_TOKEN_WORD);
-                assert(cell);
-                
-                for (j = 0; j < current->size && !nowrap; j++)
-                {
-                    int size = 1;
-                    if (current->pos[j] & 0x80) { // bits start with 1
-                        // not ascii, assuming utf-8
-                        while (j + size < current->size
-                            && (current->pos[j + size] & 0xC0) == 0x80) { // continuation byte
-                            size++;
-                        } 
-                    }
-                    if (doc->cursor.x + size >= style->right)
-                    {
-                        if (style->options & DOC_STYLE_NO_WORDWRAP)
-                        {
-                            /* nowrap is tricky ... we still need to process remaining tokens
-                             * since these may change the current style. however, we need to stop
-                             * trying to print, and we'll guard this for word tokens with the
-                             * following flag: */
-                            nowrap = TRUE;
-                            break;
-                        }
-                        doc_newline(doc);
-                        if (style->indent)
-                            doc_insert_space(doc, style->indent);
-                        cell = doc_char(doc, doc->cursor);
-                    }
-                    cell->a = style->color;
-                    cell->c = current->pos[j];
-                    if (cell->c == '\t') {
-                        cell->c = ' ';
-                    }
-                    doc->cursor.x++;
-                    cell++;
-                }
+            cell->a = style->color;
+            cell->c = token.pos[j];
+            if (cell->c == '\t') {
+                cell->c = ' ';
             }
         }
     }
