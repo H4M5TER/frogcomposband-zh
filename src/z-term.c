@@ -1280,7 +1280,8 @@ errr Term_fresh(void)
 
 
     /* Handle "total erase" */
-    if (Term->total_erase)
+    // if (Term->total_erase)
+    if (TRUE) // workaround for ghosting
     {
         byte na = Term->attr_blank;
         char nc = Term->char_blank;
