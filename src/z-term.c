@@ -1002,8 +1002,6 @@ static void Term_fresh_row_both(int y, int x1, int x2)
  */
 static void Term_fresh_row_text(int y, int x1, int x2)
 {
-    int x;
-
     byte *old_aa = Term->old->a[y];
     char *old_cc = Term->old->c[y];
 
@@ -1019,6 +1017,9 @@ static void Term_fresh_row_text(int y, int x1, int x2)
     /* Pending start */
     int fx = 0;
 
+    /* Pending position*/
+    int fpos = 0;
+
     /* Pending attr */
     byte fa = Term->attr_blank;
 
@@ -1029,7 +1030,7 @@ static void Term_fresh_row_text(int y, int x1, int x2)
     char nc;
 
     /* Scan "modified" columns */
-    for (x = x1; x <= x2; x++)
+    for (int x = x1, pos = x1; x <= x2; x++)
     {
         /* See what is currently here */
         oa = old_aa[x];
@@ -1039,30 +1040,56 @@ static void Term_fresh_row_text(int y, int x1, int x2)
         na = scr_aa[x];
         nc = scr_cc[x];
 
+        bool unchanged = FALSE, flush = FALSE;
+        int offset = 0;
+
+        if (nc & 0x80) {
+            // non ascii assume utf-8
+            if (nc & 0x40) {
+                // starting byte
+                offset = 2; // hacky: treat all non ascii as double width
+            }
+            else {
+                //continuation byte
+            }
+        }
+        else
+        {
+            // ascii
+            offset = 1;
+        }
+
         /* Handle unchanged grids */
         if ((na == oa) && (nc == oc))
-
         {
-            /* Flush */
-            if (fn)
+            unchanged = flush = TRUE;
+        }
+
+        /* Notice new color */
+        else if (fa != na)
+        {
+            flush = TRUE;
+        }
+
+        if (flush && fn) {
+            /* Draw the pending chars */
+            if (fa || always_text)
             {
-                /* Draw pending chars (normal) */
-                if (fa || always_text)
-                {
-                    (void)((*Term->text_hook)(fx, y, fn, fa, &scr_cc[fx]));
-                }
-
-                /* Draw pending chars (black) */
-                else
-                {
-                    (void)((*Term->wipe_hook)(fx, y, fn));
-                }
-
-                /* Forget */
-                fn = 0;
+                (void)((*Term->text_hook)(fpos, y, fn, fa, &scr_cc[fx]));
             }
 
-            /* Skip */
+            /* Hack -- Erase "leading" spaces */
+            else
+            {
+                (void)((*Term->wipe_hook)(fpos, y, fn));
+            }
+
+            /* Forget */
+            fn = 0;
+        }
+        
+        if (unchanged) {
+            pos += offset;
             continue;
         }
 
@@ -1070,51 +1097,35 @@ static void Term_fresh_row_text(int y, int x1, int x2)
         old_aa[x] = na;
         old_cc[x] = nc;
 
-        /* Notice new color */
         if (fa != na)
-
         {
-            /* Flush */
-            if (fn)
-            {
-                /* Draw the pending chars */
-                if (fa || always_text)
-                {
-                    (void)((*Term->text_hook)(fx, y, fn, fa, &scr_cc[fx]));
-                }
-
-                /* Hack -- Erase "leading" spaces */
-                else
-                {
-                    (void)((*Term->wipe_hook)(fx, y, fn));
-                }
-
-                /* Forget */
-                fn = 0;
-            }
-
             /* Save the new color */
             fa = na;
-
         }
 
-        /* Restart and Advance */
-        if (fn++ == 0) fx = x;
-    }
+        /* Restart */
+        if (fn == 0) {
+            fx = x;
+            fpos = pos;
+        }
 
+        /* Advance */
+        fn++;
+        pos += offset;
+    }
     /* Flush */
     if (fn)
     {
         /* Draw pending chars (normal) */
         if (fa || always_text)
         {
-            (void)((*Term->text_hook)(fx, y, fn, fa, &scr_cc[fx]));
+            (void)((*Term->text_hook)(fpos, y, fn, fa, &scr_cc[fx]));
         }
 
         /* Draw pending chars (black) */
         else
         {
-            (void)((*Term->wipe_hook)(fx, y, fn));
+            (void)((*Term->wipe_hook)(fpos, y, fn));
         }
     }
 }
