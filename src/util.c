@@ -609,8 +609,8 @@ errr my_fgets(FILE *fff, char *buf, huge n)
                 while (0 != (i % 8)) buf[i++] = ' ';
             }
 
-            /* Handle printables HACK: msvcr100d will assert the character belongs to the ASCII code set*/
-            else if ((unsigned)(*s + 1) <= 256 && isprint(*s))
+            /* Handle non-ASCII and printables ASCII */
+            else if (*s & 0x80 || isprint(*s))
             {
                 /* Copy */
                 buf[i++] = *s;
